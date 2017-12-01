@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="B7AB1949-CE90-4289-A32D-3049187EF0A7">
+  <lastEdited clientType="local-build-20120524" date="2012-05-25 01:55:30 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Workforce Development and Improvement</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="2_Workforce_Development_and_Improvement_files/shapeimage_1.png" left="0px" top="0px" width="395px" height="210px"/>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>These resources have been developed to facilitate the development of roles and responsibilities of individuals performing software and information assurance related job functions. &#xD;&#xD;DoD 8570.01-M	Information Assurance Workforce Improvement Program. Assistant Secretary of Defense for Networks and Information Integration/Department of Defense Chief Information Officer. &lt;a href="http://www.dtic.mil/whs/directives/corres/pdf/857001m.pdf"&gt;http://www.dtic.mil/whs/directives/corres/pdf/857001m.pdf&lt;/a&gt;&lt;b&gt;&#xD;&lt;/b&gt;Provides guidance and procedures for the training, certification, and management of the DoD workforce conducting Information Assurance (IA) functions in assigned duty positions. Last update: Incorporating Change 2, April 20, 2010.&#xD;&#xD;IT Security Essential Body of Knowledge (EBK): A Competency and Functional Framework for IT Security Workforce Development. DHS US-CERT&#xD;&lt;a href="http://www.us-cert.gov/ITSecurityEBK/"&gt;http://www.us-cert.gov/ITSecurityEBK/&lt;/a&gt;&#xD;Characterizes the IT security workforce and provides a national baseline of essential knowledge and skills that IT security practitioners should have in order to perform specific roles and responsibilities. Last updated September 2008.&#xD;&#xD;Information Security Workforce Development Matrix Project &#x2013; Information Security Systems and Software Development Professional Role, Developed by Federal CIO Council&#x2019;s IT Workforce Committee and Information Security and Identity Management Committee.&#xD;Contacts: &lt;a href="http://www.cio.gov/committees.cfm/csec/3/cid/4"&gt;http://www.cio.gov/committees.cfm/csec/3/cid/4&lt;/a&gt;.&#xD;&lt;a href="http://www.cio.gov/committees.cfm/csec/3/cid/5"&gt;http://www.cio.gov/committees.cfm/csec/3/cid/5&lt;/a&gt;.&#xD;This project produces role-based information security workforce development matrices. The matrices are one-page dashboards intended to establish a baseline across the Federal Government for staff engaged in information security work. This initiative provides a government-wide perspective on common information security roles. The ISS&amp;SDP is one of 11 roles that have been identified to date. Each matrix contains a uniform framework, by performance level, describing the recommended competencies/skills, education, experience, credentials, and training for a particular role. The matrices provide guidance for federal agencies and do not replace OPM basic qualifications.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Workforce Development and Improvement</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;4/2/12&lt;/b&gt;</richText>
+  </textBox>
+</content>

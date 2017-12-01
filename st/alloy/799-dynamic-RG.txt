@@ -1,0 +1,55 @@
+open util/ordering [Actor] as a0
+
+
+// Frequency is # of OperationAttemptTimeStamps per TimeFrame
+// Example: 5 attemps per second
+
+sig TimeFrame {
+	contains: set OperationAttemptTimeStamp
+}
+sig OperationAttemptTimeStamp{
+	//A TimeStamp cannot be part of more than one TimeFrame (laws of nature)
+	partof: lone TimeFrame
+}
+
+fact {
+	partof = ~contains
+}
+//Actor is the one having interaction with the software
+sig Actor{
+	performsOperation: TimeFrame set -> set OperationAttemptTimeStamp
+}
+
+
+pred init [a:Actor] {
+	no a.performsOperation
+}
+
+
+fact traces{
+	init [a0/first]
+	all a: Actor - a0/last|
+		let a'= a.next | 
+			some tf:TimeFrame, t:OperationAttemptTimeStamp |
+				operate [a, a', tf, t]
+}
+
+pred operate [a,a': Actor, tf:TimeFrame, t:OperationAttemptTimeStamp] {
+	//The timestamp is within the TimeFrame (laws of nature)
+	t in tf.contains	
+	a'.performsOperation =  a.performsOperation + tf->t
+}
+run operate
+
+
+assert noExcessiveInteraction {
+	no a: Actor, tf:TimeFrame|
+		#a.performsOperation[tf] > 1 //This number can be parameterized
+}
+check noExcessiveInteraction
+
+
+fact {
+	all a: Actor, tf:TimeFrame|
+		#a.performsOperation[tf] < 2 //This number can be parameterized
+}

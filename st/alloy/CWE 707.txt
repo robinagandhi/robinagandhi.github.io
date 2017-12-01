@@ -1,0 +1,56 @@
+
+sig Software{
+	sendsOutput: DownstreamComponent -> Output,
+	acceptsInput: UpstreamComponent -> Input
+}
+
+sig Output {
+	hastype: Formedness
+}
+
+sig Input {
+	hastype: Formedness
+}
+
+abstract sig Formedness{}
+one sig MalFormed, WellFormed extends Formedness{}
+
+one sig DownstreamComponent, UpstreamComponent{}
+
+
+// Downstream Send
+pred send 
+[s: Software, o:Output, d:DownstreamComponent] {
+	d->o in s.sendsOutput
+}
+run send
+
+assert noMalFormedOutputSent {
+	all s: Software, o:Output, d:DownstreamComponent | 
+		send [s, o, d] implies o.hastype in WellFormed
+}
+check noMalFormedOutputSent
+
+fact enforceWellFormedness{
+	all s: Software, d:DownstreamComponent | 
+		s.sendsOutput[d].hastype in WellFormed
+} 
+
+
+//Upstream Read
+pred read 
+[s: Software, i:Input, u:UpstreamComponent] {
+	u->i in s.acceptsInput
+}
+run read
+
+assert noMalFormedInputRead {
+	all s: Software, i:Input, u:UpstreamComponent | 
+		read [s, i, u] implies i.hastype in WellFormed
+}
+check noMalFormedInputRead
+
+fact enforceWellFormedness {
+	all s: Software, u:UpstreamComponent | 
+		s.acceptsInput[u].hastype in WellFormed
+}

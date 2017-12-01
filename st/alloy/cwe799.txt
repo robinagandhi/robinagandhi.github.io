@@ -1,0 +1,58 @@
+/*
+
+CWE-799: Improper Control of Interaction Frequency
+The software does not properly limit the number or frequency of interactions that it has with an actor, such as the number of incoming requests.
+Extended Description
+This can allow the actor to perform actions more frequently than expected. The actor could be a human or an automated process such as a virus or bot. This could be used to cause a denial of service, compromise program logic (such as limiting humans to a single vote), or other consequences. For example, an authentication routine might not limit the number of times an attacker can guess a password. Or, a web site might conduct a poll but only expect humans to vote a maximum of once a day.
+
+CWE-691: Insufficient Control Flow Management
+The code does not sufficiently manage its control flow during execution, creating conditions in which the control flow can be modified in unexpected ways.
+
+
+Ancestry of CWE-799 (1000 view):
+CWE-799 -> CWE-691
+
+*/
+
+
+sig Software {
+}
+
+
+// CWE-799
+//sig Time{}
+
+sig TimePoint {
+	partof: set TimeFrame
+}
+
+sig TimeFrame {
+	contains: set TimePoint
+}
+
+fact {
+	partof = ~contains
+}
+
+
+
+pred attemptTimeStampedOperation [s: Software, t: TimePoint] {
+}
+
+
+pred attemptAccesses [s: Software, t, t': TimePoint] {
+	attemptTimeStampedOperation[s,t] and attemptTimeStampedOperation[s,t'] and t != t'
+}
+
+run attemptAccesses for 1 Software, 2 TimePoint, 1 TimeFrame
+
+assert noExcessiveAttempts {
+	all s: Software, t,t': TimePoint | some tf: TimeFrame | 
+		attemptAccesses[s,t,t'] implies (
+			(not t in tf.contains and t' in tf.contains) or
+			(not t' in tf.contains and t in tf.contains)
+		)
+}
+
+check noExcessiveAttempts for 1 Software, 2 TimePoint, 1 TimeFrame
+

@@ -1,0 +1,47 @@
+open util/ordering [Software] as s0
+
+sig Buffer {
+	contains: set Location
+}
+sig Location{
+	partof: set Buffer
+}
+
+fact {
+	partof = ~contains
+}
+
+sig Software{
+	performsOperation: Buffer set -> set Location
+}
+
+pred init [s:Software] {
+	no s.performsOperation
+}
+
+
+fact traces{
+	init [s0/first]
+	all s: Software - s0/last|
+		let s'= s.next | 
+			some b:Buffer, l:Location |
+				operate [s, s', b, l]
+}
+
+pred operate [s,s': Software, b:Buffer, l:Location] {
+		s'.performsOperation =  s.performsOperation + b->l
+}
+run operate
+
+
+assert allreachableSafe {
+	no s: Software, b:Buffer|
+		let l = s.performsOperation[b] |
+			l not in b.contains
+}
+check allreachableSafe
+
+fact {
+//	all s:Software, b:Buffer, l:Location|
+	//	l in s.performsOperation[b] implies l in b.contains
+}

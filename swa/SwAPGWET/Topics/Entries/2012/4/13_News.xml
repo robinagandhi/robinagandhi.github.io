@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="B7AB1949-CE90-4289-A32D-3049187EF0A7">
+  <lastEdited clientType="local-build-20120524" date="2012-05-25 01:55:37 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>News</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="13_News_files/shapeimage_1.png" left="0px" top="0px" width="395px" height="210px"/>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;DHS/FEMA Certified Cyber Security Training Courses offered at no cost online&#xD;&lt;/b&gt;10 online courses in 3 discipline-specific tracks for end-users, IT professionals and managers.&#xD;&lt;a href="http://www.teexwmdcampus.com/user_defined_content.k2?contentID=6"&gt;http://www.teexwmdcampus.com/user_defined_content.k2?contentID=6&lt;/a&gt;  &#xD;&lt;b&gt;&#xD;&#xD;IEEE Guide to the Software Engineering Body of Knowledge&#x2014;SWEBOK&#xD;&lt;/b&gt;Refresh is currently under way.&#xD;To contribute to this effort and more information visit:&#xD;&lt;a href="http://computer.centraldesktop.com/swebokv3review/"&gt;http://computer.centraldesktop.com/swebokv3review/&lt;/a&gt;&#xD;Three knowledge areas are currently available for public review:&#xD;Software Engineering Models and Methods&#xD;Software Maintenance&#xD;Mathematical Foundations&#xD;Three knowledge areas have completed public review:&#xD;Software Construction&#xD;Software Configuration Management&#xD;Computing Foundations&#xD;&#xD;&lt;b&gt;NICE cybersecurity workforce framework &#xD;&lt;/b&gt;An effort to consistently describe cybersecurity workforce knowledge, skills and abilities. There is opportunity to review and provide feedback.&#xD;&lt;a href="http://csrc.nist.gov/nice/framework/"&gt;http://csrc.nist.gov/nice/framework/&lt;/a&gt;&#xD;&#xD;&#xD;&lt;b&gt;NIST SP 800-53 Rev. 4 &#xD;&lt;/b&gt;DRAFT Security and Privacy Controls for Federal Information Systems and Organizations &#xD;&lt;a href="http://csrc.nist.gov/publications/PubsDrafts.html"&gt;http://csrc.nist.gov/publications/PubsDrafts.html&lt;/a&gt;&#xD;Primary changes include controls for privacy and inclusion of SCAP and related standards.</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>News</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;4/13/12&lt;/b&gt;</richText>
+  </textBox>
+</content>

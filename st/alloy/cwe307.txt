@@ -1,0 +1,186 @@
+/*
+
+CWE-664: Improper Control of a Resource Through its Lifetime
+The software does not maintain or incorrectly maintains control over a resource throughout its lifetime of creation, use, and release.
+Extended Description
+Resources often have explicit instructions on how to be created, used and destroyed. When software does not follow these instructions, it can lead to unexpected behaviors and potentially exploitable states.
+Even without explicit instructions, various principles are expected to be adhered to, such as "Do not use an object until after its creation is complete," or "do not use an object after it has been slated for destruction."
+
+CWE-693: Protection Mechanism Failure
+The product does not use or incorrectly uses a protection mechanism that provides sufficient defense against directed attacks against the product.
+Extended Description
+This weakness covers three distinct situations. A "missing" protection mechanism occurs when the application does not define any mechanism against a certain class of attack. An "insufficient" protection mechanism might provide some defenses - for example, against the most common attacks - but it does not protect against everything that is intended. Finally, an "ignored" mechanism occurs when a mechanism is available and in active use within the product, but the developer has not applied it in some code path.
+
+CWE-284: Improper Access Control
+The software does not restrict or incorrectly restricts access to a resource from an unauthorized actor.
+Extended Description
+Access control involves the use of several protection mechanisms such as authentication (proving the identity of an actor) authorization (ensuring that a given actor can access a resource), and accountability (tracking of activities that were performed). When any mechanism is not applied or otherwise fails, attackers can compromise the security of the software by gaining privileges, reading sensitive information, executing commands, evading detection, etc.
+There are two distinct behaviors that can introduce access control weaknesses:
+1. Specification: incorrect privileges, permissions, ownership, etc. are explicitly specified for either the user or the resource (for example, setting a password file to be world-writable, or giving administrator capabilities to a guest user). This action could be performed by the program or the administrator.
+2. Enforcement: the mechanism contains errors that prevent it from properly enforcing the specified access control requirements (e.g., allowing the user to specify their own privileges, or allowing a syntactically-incorrect ACL to produce insecure settings). This problem occurs within the program itself, in that it does not actually enforce the intended security policy that the administrator specifies.
+
+CWE-287: Improper Authentication
+When an actor claims to have a given identity, the software does not prove or insufficiently proves that the claim is correct.
+
+
+CWE-799: Improper Control of Interaction Frequency
+The software does not properly limit the number or frequency of interactions that it has with an actor, such as the number of incoming requests.
+Extended Description
+This can allow the actor to perform actions more frequently than expected. The actor could be a human or an automated process such as a virus or bot. This could be used to cause a denial of service, compromise program logic (such as limiting humans to a single vote), or other consequences. For example, an authentication routine might not limit the number of times an attacker can guess a password. Or, a web site might conduct a poll but only expect humans to vote a maximum of once a day.
+
+CWE-691: Insufficient Control Flow Management
+The code does not sufficiently manage its control flow during execution, creating conditions in which the control flow can be modified in unexpected ways.
+
+
+Ancestry of CWE-307 (1000 view):
+                               +-> CWE-664
+        +-> CWE-287 -> CWE-284 +
+CWE-307 +                      +-> CWE-693
+		+-> CWE-799 -> CWE-691
+
+CWE-307: Improper Restriction of Excessive Authentication Attempts
+The software does not implement sufficient measures to prevent multiple failed authentication attempts within in a short time frame, making it more susceptible to brute force attacks.
+
+*/
+
+// CWE-664
+sig Resource {}
+
+// CWE-284
+sig RestrictedResource extends Resource {
+	protectedBy: AccessControl
+}
+
+// CWE-284
+sig AccessControl {
+	implementedBy: ProtectionMechanism,
+	protects: RestrictedResource,
+	allow: set Actor
+}
+
+fact {
+	protectedBy = ~protects
+}
+
+// CWE-693
+sig ProtectionMechanism {
+	implements: AccessControl
+}
+
+fact {
+	implementedBy = ~implements
+}
+
+// CWE-287 and CWE-284
+sig Authentication extends ProtectionMechanism {
+	authentic: Actor -> Credential
+}
+
+
+// CWE-287?
+sig Credential {}
+
+// CWE-284
+sig Actor {
+}
+
+sig Software {
+	// CWE-287    
+	performAuthentication: Actor -> Credential,  
+	// CWE-284
+	performAccessOperation: Actor -> RestrictedResource, 
+	// CWE-287
+	logAccessTime: Actor -> TimePoint
+}
+
+// CWE-284
+pred attemptAccess [s: Software, a: Actor, r: RestrictedResource] {
+	a -> r in s.performAccessOperation    
+}
+
+run attemptAccess for 1 Resource, 1 Actor, 1 Software, 1 AccessControl, 1 ProtectionMechanism, 1 Credential, 1 TimePoint, 1 TimeFrame
+
+// CWE-284
+assert noImproperAccessControl {
+	all s: Software, a: Actor, r: RestrictedResource |
+		attemptAccess[s,a,r] implies (a in r.protectedBy.allow)
+}
+
+check noImproperAccessControl for 1 Resource, 1 Actor, 1 Software, 1 AccessControl, 1 ProtectionMechanism, 1 Credential, 1 TimePoint, 1 TimeFrame
+
+/*
+fact limitImproperAccessControl {
+	all s: Software, a:Actor | 
+		a in s.performAccessOperation[a].protectedBy.allow
+}
+*/
+
+// CWE-287
+pred attemptAuthenticatedAccess [s: Software, a: Actor, r: RestrictedResource, c: Credential] {
+	a -> c in s.performAuthentication
+	a -> r in s.performAccessOperation 
+}
+
+run attemptAuthenticatedAccess for 1 Resource, 1 Actor, 1 Software, 1 AccessControl, 1 ProtectionMechanism, 1 Credential, 1 TimePoint, 1 TimeFrame
+
+
+// CWE-287
+assert noImproperAuthentication {
+	all s: Software, a: Actor, r: RestrictedResource, c: Credential |
+		attemptAuthenticatedAccess[s,a,r,c] implies (a in r.protectedBy.allow and (a -> c) in r.protectedBy.implementedBy.authentic)
+}
+
+check noImproperAuthentication for 1 Resource, 1 Actor, 1 Software, 1 AccessControl, 1 ProtectionMechanism, 1 Credential, 1 TimePoint, 1 TimeFrame
+
+/*
+fact limitImproperAuthentication {
+	all a: Actor, c: Credential | some auth: Authentication | 
+		(a -> c) in auth.authentic
+}
+*/
+
+// CWE-799
+//sig Time{}
+
+// CWE-799
+sig TimePoint {
+	partof: set TimeFrame
+}
+
+// CWE-799
+sig TimeFrame {
+	contains: set TimePoint
+}
+
+fact {
+	partof = ~contains
+}
+
+
+// CWE-307 from CWE-799
+pred attemptTimeStampedAccess [s: Software, a: Actor, r: RestrictedResource, c: Credential, t: TimePoint] {
+	attemptAuthenticatedAccess[s,a,r,c]
+	a -> t in s.logAccessTime
+}
+
+// CWE-307 from CWE-799
+pred attemptAccesses [s: Software, a, a': Actor, r: RestrictedResource, c, c': Credential, t, t': TimePoint] {
+	attemptTimeStampedAccess[s,a,r,c,t] and attemptTimeStampedAccess[s,a',r,c',t'] and a = a' and t != t'
+}
+
+run attemptAccesses for 1 Resource, 2 Actor, 1 Software, 1 AccessControl, 1 ProtectionMechanism, 2 Credential, 2 TimePoint, 1 TimeFrame
+
+
+// CWE-307 from CWE-799
+assert noExcessiveAttempts {
+	all s: Software, a,a': Actor, r: RestrictedResource, c,c': Credential, t,t': TimePoint | some tf: TimeFrame | 
+		attemptAccesses[s,a,a',r,c,c',t,t'] implies (
+			(not ((a in r.protectedBy.allow and (a -> c) in r.protectedBy.implementedBy.authentic) and
+			        (a' in r.protectedBy.allow and (a' -> c') in r.protectedBy.implementedBy.authentic))) implies
+			((not t in tf.contains and t' in tf.contains) or
+			 (not t' in tf.contains and t in tf.contains))
+		)
+}
+
+check noExcessiveAttempts for 1 Resource, 1 Actor, 1 Software, 1 AccessControl, 1 ProtectionMechanism, 3 Credential, 3 TimePoint, 1 TimeFrame
+

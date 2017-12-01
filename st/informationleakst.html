@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!--This file has been created with freemind2html.xsl-->
+
+<head>
+<title>Information Leak Semantic Template</title>
+<link rel="stylesheet" href="informationleakst.html_files/freemind2html.css" type="text/css" />
+<meta name="generator" content="FreeMind-XSL Stylesheet (see: http://freemind-xsl.dev.slash-me.net/ for details)" />
+<script type="text/javascript" src="informationleakst.html_files/freemind2html.js">
+  
+	</script>
+<script type="text/javascript"><!--
+          
+               function toggle(id)
+               {
+                   div_el = document.getElementById(id);
+                   img_el = document.getElementById('img'+id);
+                   if (div_el.style.display != 'none')
+                   {
+          
+					
+                      div_el.style.display='none';
+                      img_el.src = 'informationleakst.html_files/show.png';
+          
+                   }
+                   else
+                   {
+          
+                      div_el.style.display='block';
+                      img_el.src = 'informationleakst.html_files/hide.png';
+          
+                   };
+               };
+          
+          --></script>
+</head>
+
+<body>
+
+<h1>Information Leak Semantic Template</h1>
+<div style="width:96%;  padding:2%;  margin-bottom:10px;  border: 0px;  text-align:center;  vertical-align:center;">
+	<img src="informationleakst.html_files/image.png" style="margin-bottom:10px; 	border: 0px; 	text-align:center; 	vertical-align:center;" alt="Imagemap" usemap="#fm_imagemap" /></div>
+<map name="fm_imagemap" id="fm_imagemap">
+<area shape="rect" href="#FMFreemind_Link_1442544903FM" alt="Information Leak Semantic Template" title="Information Leak Semantic Template" coords="851,780,1218,840" />
+<area shape="rect" href="#FMFreemind_Link_138992309FM" alt="Fault" title="Fault" coords="779,700,831,728" />
+<area shape="rect" href="#FMFreemind_Link_1030994755FM" alt="Failure to safeguard internal state" title="Failure to safeguard internal state" coords="516,1,759,26" />
+<area shape="rect" href="#FMFreemind_Link_1347006790FM" alt="203" title="203" coords="460,0,496,23" />
+<area shape="rect" href="#FMFreemind_Link_1127954605FM" alt="Failure to follow safe programming pract ..." title="Failure to follow safe programming pract ..." coords="440,172,759,197" />
+<area shape="rect" href="#FMFreemind_Link_1561201320FM" alt="498" title="498" coords="384,29,420,52" />
+<area shape="rect" href="#FMFreemind_Link_817092039FM" alt="499" title="499" coords="384,55,420,78" />
+<area shape="rect" href="#FMFreemind_Link_762852098FM" alt="Failure to remove sensitive information  ..." title="Failure to remove sensitive information  ..." coords="53,82,420,105" />
+<area shape="rect" href="#FMFreemind_Link_623670827FM" alt="215" title="215" coords="0,81,33,101" />
+<area shape="rect" href="#FMFreemind_Link_1451279908FM" alt="8" title="8" coords="398,108,420,131" />
+<area shape="rect" href="#FMFreemind_Link_1896146119FM" alt="492" title="492" coords="384,134,420,157" />
+<area shape="rect" href="#FMFreemind_Link_566354280FM" alt="618" title="618" coords="384,160,420,183" />
+<area shape="rect" href="#FMFreemind_Link_42311909FM" alt="749" title="749" coords="384,186,420,209" />
+<area shape="rect" href="#FMFreemind_Link_1230718307FM" alt="767" title="767" coords="384,212,420,235" />
+<area shape="rect" href="#FMFreemind_Link_1408268001FM" alt="488" title="488" coords="384,238,420,261" />
+<area shape="rect" href="#FMFreemind_Link_200987278FM" alt="495" title="495" coords="384,264,420,287" />
+<area shape="rect" href="#FMFreemind_Link_240075625FM" alt="766" title="766" coords="384,290,420,313" />
+<area shape="rect" href="#FMFreemind_Link_49356310FM" alt="485" title="485" coords="384,316,420,339" />
+<area shape="rect" href="#FMFreemind_Link_1815668117FM" alt="Failure to sanitze error message" title="Failure to sanitze error message" coords="523,354,759,379" />
+<area shape="rect" href="#FMFreemind_Link_236151873FM" alt="209" title="209" coords="467,342,503,365" />
+<area shape="rect" href="#FMFreemind_Link_1910970158FM" alt="81" title="81" coords="475,368,503,391" />
+<area shape="rect" href="#FMFreemind_Link_258632918FM" alt="Missing custom error page" title="Missing custom error page" coords="562,395,759,420" />
+<area shape="rect" href="#FMFreemind_Link_856522435FM" alt="756" title="756" coords="506,394,542,417" />
+<area shape="rect" href="#FMFreemind_Link_1133450523FM" alt="Improper exception handling" title="Improper exception handling" coords="552,448,759,473" />
+<area shape="rect" href="#FMFreemind_Link_1653512712FM" alt="600" title="600" coords="496,423,532,446" />
+<area shape="rect" href="#FMFreemind_Link_820645478FM" alt="390" title="390" coords="496,449,532,472" />
+<area shape="rect" href="#FMFreemind_Link_295872009FM" alt="7" title="7" coords="510,475,532,498" />
+<area shape="rect" href="#FMFreemind_Link_1332103725FM" alt="Improper use or implementation of crypto ..." title="Improper use or implementation of crypto ..." coords="418,539,759,564" />
+<area shape="rect" href="#FMFreemind_Link_773670228FM" alt="310" title="310" coords="362,501,398,524" />
+<area shape="rect" href="#FMFreemind_Link_599098167FM" alt="330" title="330" coords="362,527,398,550" />
+<area shape="rect" href="#FMFreemind_Link_1603263564FM" alt="327" title="327" coords="362,553,398,576" />
+<area shape="rect" href="#FMFreemind_Link_830273845FM" alt="326" title="326" coords="362,579,398,602" />
+<area shape="rect" href="#FMFreemind_Link_1119122294FM" alt="Failure to encrypt sensitive data" title="Failure to encrypt sensitive data" coords="528,641,759,666" />
+<area shape="rect" href="#FMFreemind_Link_690851962FM" alt="311" title="311" coords="472,605,508,628" />
+<area shape="rect" href="#FMFreemind_Link_1847137907FM" alt="Plaintext storage of sensitive informati ..." title="Plaintext storage of sensitive informati ..." coords="242,632,508,655" />
+<area shape="rect" href="#FMFreemind_Link_515169FM" alt="313-318" title="313-318" coords="164,631,222,651" />
+<area shape="rect" href="#FMFreemind_Link_1192066608FM" alt="Cleartext storage of sensitive informati ..." title="Cleartext storage of sensitive informati ..." coords="239,668,508,691" />
+<area shape="rect" href="#FMFreemind_Link_609821230FM" alt="312" title="312" coords="186,658,219,678" />
+<area shape="rect" href="#FMFreemind_Link_131843349FM" alt="319" title="319" coords="186,681,219,701" />
+<area shape="rect" href="#FMFreemind_Link_183453679FM" alt="Permitting data queries that allow infer ..." title="Permitting data queries that allow infer ..." coords="437,705,759,730" />
+<area shape="rect" href="#FMFreemind_Link_1871412693FM" alt="202" title="202" coords="381,704,417,727" />
+<area shape="rect" href="#FMFreemind_Link_1120083481FM" alt="Intended information leak" title="Intended information leak" coords="574,734,759,759" />
+<area shape="rect" href="#FMFreemind_Link_1623635286FM" alt="213" title="213" coords="518,733,554,756" />
+<area shape="rect" href="#FMFreemind_Link_1090438804FM" alt="Putting sensitive information in wrong p ..." title="Putting sensitive information in wrong p ..." coords="449,826,759,851" />
+<area shape="rect" href="#FMFreemind_Link_1296403371FM" alt="526" title="526" coords="393,762,429,785" />
+<area shape="rect" href="#FMFreemind_Link_1328009410FM" alt="497" title="497" coords="393,788,429,811" />
+<area shape="rect" href="#FMFreemind_Link_324308162FM" alt="214" title="214" coords="393,814,429,837" />
+<area shape="rect" href="#FMFreemind_Link_874125556FM" alt="591" title="591" coords="393,840,429,863" />
+<area shape="rect" href="#FMFreemind_Link_1547773796FM" alt="publicly accessible output stream" title="publicly accessible output stream" coords="209,866,429,889" />
+<area shape="rect" href="#FMFreemind_Link_1754702450FM" alt="process paramter list" title="process paramter list" coords="285,892,429,915" />
+<area shape="rect" href="#FMFreemind_Link_1611711935FM" alt="Failure to secure data channel" title="Failure to secure data channel" coords="539,919,759,944" />
+<area shape="rect" href="#FMFreemind_Link_1059427510FM" alt="201" title="201" coords="483,918,519,941" />
+<area shape="rect" href="#FMFreemind_Link_1712539326FM" alt="Improper cleansing of sensitive data" title="Improper cleansing of sensitive data" coords="498,988,759,1013" />
+<area shape="rect" href="#FMFreemind_Link_760656518FM" alt="212" title="212" coords="442,947,478,970" />
+<area shape="rect" href="#FMFreemind_Link_1290390105FM" alt="Failure to clear heap memory" title="Failure to clear heap memory" coords="281,974,478,997" />
+<area shape="rect" href="#FMFreemind_Link_420184390FM" alt="244" title="244" coords="228,973,261,993" />
+<area shape="rect" href="#FMFreemind_Link_49850603FM" alt="Failure to clear cache" title="Failure to clear cache" coords="329,1001,478,1024" />
+<area shape="rect" href="#FMFreemind_Link_681922087FM" alt="524" title="524" coords="276,1000,309,1020" />
+<area shape="rect" href="#FMFreemind_Link_947399504FM" alt="Insufficient session expiration" title="Insufficient session expiration" coords="282,1028,478,1051" />
+<area shape="rect" href="#FMFreemind_Link_562683468FM" alt="613" title="613" coords="229,1027,262,1047" />
+<area shape="rect" href="#FMFreemind_Link_1628112169FM" alt="Improper access or listing or exposure o ..." title="Improper access or listing or exposure o ..." coords="326,1105,759,1130" />
+<area shape="rect" href="#FMFreemind_Link_532339416FM" alt="538" title="538" coords="270,1054,306,1077" />
+<area shape="rect" href="#FMFreemind_Link_1862044182FM" alt="782" title="782" coords="270,1080,306,1103" />
+<area shape="rect" href="#FMFreemind_Link_1155939694FM" alt="378" title="378" coords="270,1106,306,1129" />
+<area shape="rect" href="#FMFreemind_Link_548539589FM" alt="412" title="412" coords="270,1132,306,1155" />
+<area shape="rect" href="#FMFreemind_Link_1201069918FM" alt="708" title="708" coords="270,1158,306,1181" />
+<area shape="rect" href="#FMFreemind_Link_1128096629FM" alt="Misconfiguration of tool" title="Misconfiguration of tool" coords="587,1185,759,1210" />
+<area shape="rect" href="#FMFreemind_Link_17101387FM" alt="14" title="14" coords="539,1184,567,1207" />
+<area shape="rect" href="#FMFreemind_Link_376949787FM" alt="Incorrect permission or access control" title="Incorrect permission or access control" coords="485,1303,759,1328" />
+<area shape="rect" href="#FMFreemind_Link_928668140FM" alt="285" title="285" coords="429,1213,465,1236" />
+<area shape="rect" href="#FMFreemind_Link_65648471FM" alt="276" title="276" coords="429,1239,465,1262" />
+<area shape="rect" href="#FMFreemind_Link_1382886725FM" alt="266" title="266" coords="429,1265,465,1288" />
+<area shape="rect" href="#FMFreemind_Link_1345902157FM" alt="269" title="269" coords="429,1291,465,1314" />
+<area shape="rect" href="#FMFreemind_Link_1833793048FM" alt="284" title="284" coords="429,1317,465,1340" />
+<area shape="rect" href="#FMFreemind_Link_1666882849FM" alt="286" title="286" coords="429,1343,465,1366" />
+<area shape="rect" href="#FMFreemind_Link_282395401FM" alt="689" title="689" coords="429,1369,465,1392" />
+<area shape="rect" href="#FMFreemind_Link_759650434FM" alt="648" title="648" coords="429,1395,465,1418" />
+<area shape="rect" href="#FMFreemind_Link_128417974FM" alt="Resource/Locations" title="Resource/Locations" coords="1238,711,1409,739" />
+<area shape="rect" href="#FMFreemind_Link_784790144FM" alt="File and directory" title="File and directory" coords="1429,394,1561,419" />
+<area shape="rect" href="#FMFreemind_Link_881166519FM" alt="538" title="538" coords="1581,223,1617,246" />
+<area shape="rect" href="#FMFreemind_Link_1382582273FM" alt="CVS repository 527" title="CVS repository 527" coords="1581,249,1716,272" />
+<area shape="rect" href="#FMFreemind_Link_151069649FM" alt="Core dump 528" title="Core dump 528" coords="1581,275,1691,298" />
+<area shape="rect" href="#FMFreemind_Link_870146566FM" alt="Access control lists 529" title="Access control lists 529" coords="1581,301,1741,324" />
+<area shape="rect" href="#FMFreemind_Link_303621997FM" alt="Backup files 530" title="Backup files 530" coords="1581,327,1697,350" />
+<area shape="rect" href="#FMFreemind_Link_1308541432FM" alt="Log files 532" title="Log files 532" coords="1581,374,1674,397" />
+<area shape="rect" href="#FMFreemind_Link_298014440FM" alt="Server logs 533" title="Server logs 533" coords="1694,353,1792,373" />
+<area shape="rect" href="#FMFreemind_Link_1563017212FM" alt="Debug logs 534" title="Debug logs 534" coords="1694,376,1794,396" />
+<area shape="rect" href="#FMFreemind_Link_1406342000FM" alt="Cleanup logs 542" title="Cleanup logs 542" coords="1694,399,1804,419" />
+<area shape="rect" href="#FMFreemind_Link_1428789808FM" alt="Persistent cookies 539" title="Persistent cookies 539" coords="1581,422,1736,445" />
+<area shape="rect" href="#FMFreemind_Link_1789176035FM" alt="Source code 540" title="Source code 540" coords="1581,469,1701,492" />
+<area shape="rect" href="#FMFreemind_Link_588485805FM" alt="Test code 531" title="Test code 531" coords="1721,448,1811,468" />
+<area shape="rect" href="#FMFreemind_Link_1994979499FM" alt="Include source 541" title="Include source 541" coords="1721,471,1838,491" />
+<area shape="rect" href="#FMFreemind_Link_1944895345FM" alt="Source code comments 615" title="Source code comments 615" coords="1721,494,1888,514" />
+<area shape="rect" href="#FMFreemind_Link_1391283509FM" alt="Directory listing 548" title="Directory listing 548" coords="1581,517,1718,540" />
+<area shape="rect" href="#FMFreemind_Link_1275944503FM" alt="XML External entity 611" title="XML External entity 611" coords="1581,543,1741,566" />
+<area shape="rect" href="#FMFreemind_Link_1789932327FM" alt="WSDL file 651" title="WSDL file 651" coords="1581,569,1683,592" />
+<area shape="rect" href="#FMFreemind_Link_543772167FM" alt="Data channel" title="Data channel" coords="1429,596,1532,621" />
+<area shape="rect" href="#FMFreemind_Link_327479568FM" alt="201" title="201" coords="1552,595,1588,618" />
+<area shape="rect" href="#FMFreemind_Link_1043656545FM" alt="Cache" title="Cache" coords="1429,636,1487,661" />
+<area shape="rect" href="#FMFreemind_Link_548864534FM" alt="524" title="524" coords="1507,624,1543,647" />
+<area shape="rect" href="#FMFreemind_Link_880934488FM" alt="Browser cache 525" title="Browser cache 525" coords="1507,650,1640,673" />
+<area shape="rect" href="#FMFreemind_Link_87333549FM" alt="Memory heap" title="Memory heap" coords="1429,677,1536,702" />
+<area shape="rect" href="#FMFreemind_Link_1344274613FM" alt="244" title="244" coords="1556,676,1592,699" />
+<area shape="rect" href="#FMFreemind_Link_734346758FM" alt="Process invocation elements" title="Process invocation elements" coords="1429,730,1640,755" />
+<area shape="rect" href="#FMFreemind_Link_856390639FM" alt="214" title="214" coords="1660,705,1712,728" />
+<area shape="rect" href="#FMFreemind_Link_1531856395FM" alt="Process parameters" title="Process parameters" coords="1660,731,1799,754" />
+<area shape="rect" href="#FMFreemind_Link_1596580323FM" alt="Process environments" title="Process environments" coords="1660,757,1812,780" />
+<area shape="rect" href="#FMFreemind_Link_168311779FM" alt="Debug information" title="Debug information" coords="1429,784,1569,809" />
+<area shape="rect" href="#FMFreemind_Link_1283746132FM" alt="215" title="215" coords="1589,783,1625,806" />
+<area shape="rect" href="#FMFreemind_Link_1980397750FM" alt="Sensitive information" title="Sensitive information" coords="1429,839,1586,864" />
+<area shape="rect" href="#FMFreemind_Link_317197903FM" alt="200" title="200" coords="1606,812,1642,835" />
+<area shape="rect" href="#FMFreemind_Link_1249355115FM" alt="User information" title="User information" coords="1606,839,1721,862" />
+<area shape="rect" href="#FMFreemind_Link_1169721818FM" alt="202" title="202" coords="1741,838,1774,858" />
+<area shape="rect" href="#FMFreemind_Link_71721732FM" alt="Credentials" title="Credentials" coords="1606,866,1690,889" />
+<area shape="rect" href="#FMFreemind_Link_592501773FM" alt="255" title="255" coords="1710,865,1743,885" />
+<area shape="rect" href="#FMFreemind_Link_685010777FM" alt="System data" title="System data" coords="1429,905,1528,930" />
+<area shape="rect" href="#FMFreemind_Link_782841166FM" alt="497" title="497" coords="1548,892,1584,915" />
+<area shape="rect" href="#FMFreemind_Link_502448860FM" alt="OS environment variables" title="OS environment variables" coords="1548,919,1723,942" />
+<area shape="rect" href="#FMFreemind_Link_1117826993FM" alt="526" title="526" coords="1743,918,1776,938" />
+<area shape="rect" href="#FMFreemind_Link_1608407021FM" alt="Error message" title="Error message" coords="1429,1003,1545,1028" />
+<area shape="rect" href="#FMFreemind_Link_695143653FM" alt="209" title="209" coords="1565,945,1601,968" />
+<area shape="rect" href="#FMFreemind_Link_587625134FM" alt="Product generated 210" title="Product generated 210" coords="1565,1004,1723,1027" />
+<area shape="rect" href="#FMFreemind_Link_1610426570FM" alt="Shell error message 535" title="Shell error message 535" coords="1743,971,1892,991" />
+<area shape="rect" href="#FMFreemind_Link_1215214214FM" alt="Servlet runtime error message 536" title="Servlet runtime error message 536" coords="1743,994,1946,1014" />
+<area shape="rect" href="#FMFreemind_Link_195991232FM" alt="Java runtime error message 537" title="Java runtime error message 537" coords="1743,1017,1934,1037" />
+<area shape="rect" href="#FMFreemind_Link_1641299016FM" alt="Server error message 550" title="Server error message 550" coords="1743,1040,1899,1060" />
+<area shape="rect" href="#FMFreemind_Link_1933758829FM" alt="Product-external 211" title="Product-external 211" coords="1565,1063,1709,1086" />
+<area shape="rect" href="#FMFreemind_Link_521722546FM" alt="Indices" title="Indices" coords="1429,1090,1490,1115" />
+<area shape="rect" href="#FMFreemind_Link_339927488FM" alt="612" title="612" coords="1510,1089,1546,1112" />
+<area shape="rect" href="#FMFreemind_Link_78335327FM" alt="Internal state" title="Internal state" coords="1429,1119,1528,1144" />
+<area shape="rect" href="#FMFreemind_Link_1503894848FM" alt="203" title="203" coords="1548,1118,1584,1141" />
+<area shape="rect" href="#FMFreemind_Link_1939011420FM" alt="Covert channel" title="Covert channel" coords="1429,1172,1544,1197" />
+<area shape="rect" href="#FMFreemind_Link_1596415711FM" alt="385" title="385" coords="1564,1147,1600,1170" />
+<area shape="rect" href="#FMFreemind_Link_1108143371FM" alt="514" title="514" coords="1564,1173,1600,1196" />
+<area shape="rect" href="#FMFreemind_Link_495756173FM" alt="515" title="515" coords="1564,1199,1600,1222" />
+<area shape="rect" href="#FMFreemind_Link_488599517FM" alt="Consequences" title="Consequences" coords="1238,1294,1370,1322" />
+<area shape="rect" href="#FMFreemind_Link_644862440FM" alt="Sensitive information exposure to unauth ..." title="Sensitive information exposure to unauth ..." coords="1390,1293,1776,1318" />
+<area shape="rect" href="#FMFreemind_Link_1886538584FM" alt="(leads to)" title="(leads to)" coords="1796,1281,1888,1304" />
+<area shape="rect" href="#FMFreemind_Link_1549666385FM" alt="Privacy violation" title="Privacy violation" coords="1908,1248,2006,1268" />
+<area shape="rect" href="#FMFreemind_Link_265465752FM" alt="credit card" title="credit card" coords="2026,1225,2095,1245" />
+<area shape="rect" href="#FMFreemind_Link_828710757FM" alt="health records" title="health records" coords="2026,1248,2117,1268" />
+<area shape="rect" href="#FMFreemind_Link_327710216FM" alt="359" title="359" coords="2026,1271,2059,1291" />
+<area shape="rect" href="#FMFreemind_Link_1004650331FM" alt="Further attack" title="Further attack" coords="1908,1317,1994,1337" />
+<area shape="rect" href="#FMFreemind_Link_1999198273FM" alt="password" title="password" coords="2014,1294,2081,1314" />
+<area shape="rect" href="#FMFreemind_Link_1589219811FM" alt="Denial of service" title="Denial of service" coords="2014,1317,2117,1337" />
+<area shape="rect" href="#FMFreemind_Link_414681753FM" alt="Unauthorized access to system" title="Unauthorized access to system" coords="2014,1340,2198,1360" />
+<area shape="rect" href="#FMFreemind_Link_1056831415FM" alt="200" title="200" coords="1796,1363,1832,1386" />
+<area shape="rect" href="#FM_FM" alt="Weakness" title="Weakness" coords="735,1501,831,1529" />
+<area shape="rect" href="#FMFreemind_Link_1351384226FM" alt="Expose sensitive information" title="Expose sensitive information" coords="504,1500,715,1525" />
+<area shape="rect" href="#FMFreemind_Link_1095366384FM" alt="200" title="200" coords="448,1421,484,1444" />
+<area shape="rect" href="#FMFreemind_Link_1825969521FM" alt="Exposure of sensitive information due to ..." title="Exposure of sensitive information due to ..." coords="60,1457,484,1480" />
+<area shape="rect" href="#FMFreemind_Link_1802853372FM" alt="203" title="203" coords="7,1447,40,1467" />
+<area shape="rect" href="#FMFreemind_Link_1821250897FM" alt="202" title="202" coords="7,1470,40,1490" />
+<area shape="rect" href="#FMFreemind_Link_144491498FM" alt="Exposure of resource to wrong sphere" title="Exposure of resource to wrong sphere" coords="231,1537,484,1560" />
+<area shape="rect" href="#FMFreemind_Link_1516533288FM" alt="668" title="668" coords="178,1493,211,1513" />
+<area shape="rect" href="#FMFreemind_Link_914026062FM" alt="402" title="402" coords="178,1516,211,1536" />
+<area shape="rect" href="#FMFreemind_Link_1145500587FM" alt="610" title="610" coords="178,1539,211,1559" />
+<area shape="rect" href="#FMFreemind_Link_1576054240FM" alt="669" title="669" coords="178,1562,211,1582" />
+<area shape="rect" href="#FMFreemind_Link_33738121FM" alt="673" title="673" coords="178,1585,211,1605" />
+</map>
+<div class="node">
+	<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65543&quot;)" id="imgN65543" /><a id="FMFreemind_Link_1442544903FM"><div class="nodecontent" style="color:#000000;font-size:167%;">
+		Information Leak Semantic Template</div>
+	<div class="content" id="N65543">
+		<div class="node">
+			<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65561&quot;)" id="imgN65561" /></a><a id="FMFreemind_Link_138992309FM"><div class="nodecontent" style="color:#0033ff;font-size:150%;">
+				Fault</div>
+			<div class="content" id="N65561">
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65578&quot;)" id="imgN65578" /></a><a id="FMFreemind_Link_1030994755FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Failure to safeguard internal state</div>
+					<div class="content" id="N65578">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1347006790FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								203<p>Example Code:</p>
+								<p>&nbsp;</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65611&quot;)" id="imgN65611" /></a><a id="FMFreemind_Link_1127954605FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Failure to follow safe programming practices</div>
+					<div class="content" id="N65611">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1561201320FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								498</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_817092039FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								499</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65659&quot;)" id="imgN65659" /></a><a id="FMFreemind_Link_762852098FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Failure to remove sensitive information from debug 
+								code</div>
+							<div class="content" id="N65659">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_623670827FM"><div class="nodecontent" style="color:#111111;">
+										215</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1451279908FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								8</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1896146119FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								492</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_566354280FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								618</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_42311909FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								749</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1230718307FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								767</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1408268001FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								488</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_200987278FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								495</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_240075625FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								766</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_49356310FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								485</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65832&quot;)" id="imgN65832" /></a><a id="FMFreemind_Link_1815668117FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Failure to sanitze error message</div>
+					<div class="content" id="N65832">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_236151873FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								209</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1910970158FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								81</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65881&quot;)" id="imgN65881" /></a><a id="FMFreemind_Link_258632918FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Missing custom error page</div>
+					<div class="content" id="N65881">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_856522435FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								756</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65914&quot;)" id="imgN65914" /></a><a id="FMFreemind_Link_1133450523FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Improper exception handling</div>
+					<div class="content" id="N65914">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1653512712FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								600</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_820645478FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								390</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_295872009FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								7</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N65979&quot;)" id="imgN65979" /></a><a id="FMFreemind_Link_1332103725FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Improper use or implementation of cryptography</div>
+					<div class="content" id="N65979">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_773670228FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								310</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_599098167FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								330</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1603263564FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								327</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_830273845FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								326</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66060&quot;)" id="imgN66060" /></a><a id="FMFreemind_Link_1119122294FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Failure to encrypt sensitive data</div>
+					<div class="content" id="N66060">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_690851962FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								311</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66092&quot;)" id="imgN66092" /></a><a id="FMFreemind_Link_1847137907FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Plaintext storage of sensitive information</div>
+							<div class="content" id="N66092">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_515169FM"><div class="nodecontent" style="color:#111111;">
+										313-318</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66120&quot;)" id="imgN66120" /></a><a id="FMFreemind_Link_1192066608FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Cleartext storage of sensitive information</div>
+							<div class="content" id="N66120">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_609821230FM"><div class="nodecontent" style="color:#111111;">
+										312</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_131843349FM"><div class="nodecontent" style="color:#111111;">
+										319</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66161&quot;)" id="imgN66161" /></a><a id="FMFreemind_Link_183453679FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Permitting data queries that allow inferencing</div>
+					<div class="content" id="N66161">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1871412693FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								202</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66194&quot;)" id="imgN66194" /></a><a id="FMFreemind_Link_1120083481FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Intended information leak</div>
+					<div class="content" id="N66194">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1623635286FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								213</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66227&quot;)" id="imgN66227" /></a><a id="FMFreemind_Link_1090438804FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Putting sensitive information in wrong place</div>
+					<div class="content" id="N66227">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1296403371FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								526</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1328009410FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								497</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_324308162FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								214</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_874125556FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								591</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1547773796FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								publicly accessible output stream</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1754702450FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								process paramter list</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66340&quot;)" id="imgN66340" /></a><a id="FMFreemind_Link_1611711935FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Failure to secure data channel</div>
+					<div class="content" id="N66340">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1059427510FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								201</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66373&quot;)" id="imgN66373" /></a><a id="FMFreemind_Link_1712539326FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Improper cleansing of sensitive data</div>
+					<div class="content" id="N66373">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_760656518FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								212</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66405&quot;)" id="imgN66405" /></a><a id="FMFreemind_Link_1290390105FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Failure to clear heap memory</div>
+							<div class="content" id="N66405">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_420184390FM"><div class="nodecontent" style="color:#111111;">
+										244</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66433&quot;)" id="imgN66433" /></a><a id="FMFreemind_Link_49850603FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Failure to clear cache</div>
+							<div class="content" id="N66433">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_681922087FM"><div class="nodecontent" style="color:#111111;">
+										524</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66461&quot;)" id="imgN66461" /></a><a id="FMFreemind_Link_947399504FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Insufficient session expiration</div>
+							<div class="content" id="N66461">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_562683468FM"><div class="nodecontent" style="color:#111111;">
+										613</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66490&quot;)" id="imgN66490" /></a><a id="FMFreemind_Link_1628112169FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Improper access or listing or exposure of files and directories</div>
+					</a>
+					<a onclick="getVisibleParents('FMFreemind_Link_1628112169FM')" href="#FMFreemind_Link_1628112169FM">
+					<img src="informationleakst.html_files/ilink.png" class="ilink" alt="Arrow Link" /></a><div class="content" id="N66490">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /><a id="FMFreemind_Link_532339416FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								538</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1862044182FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								782</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1155939694FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								378</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_548539589FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								412</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1201069918FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								708</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66595&quot;)" id="imgN66595" /></a><a id="FMFreemind_Link_1128096629FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Misconfiguration of tool</div>
+					<div class="content" id="N66595">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_17101387FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								14</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66628&quot;)" id="imgN66628" /></a><a id="FMFreemind_Link_376949787FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Incorrect permission or access control</div>
+					<div class="content" id="N66628">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_928668140FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								285</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_65648471FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								276</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1382886725FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								266</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1345902157FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								269</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1833793048FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								284</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1666882849FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								286</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_282395401FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								689</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_759650434FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								648</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="node">
+			<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66774&quot;)" id="imgN66774" /></a><a id="FMFreemind_Link_128417974FM"><div class="nodecontent" style="color:#0033ff;font-size:150%;">
+				Resource/Locations</div>
+			<div class="content" id="N66774">
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66791&quot;)" id="imgN66791" /></a><a id="FMFreemind_Link_784790144FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						File and directory</div>
+					<div class="content" id="N66791">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_881166519FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								538</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1382582273FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								CVS repository 527</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_151069649FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Core dump 528</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_870146566FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Access control lists 529</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_303621997FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Backup files 530</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66887&quot;)" id="imgN66887" /></a><a id="FMFreemind_Link_1308541432FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Log files 532</div>
+							<div class="content" id="N66887">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_298014440FM"><div class="nodecontent" style="color:#111111;">
+										Server logs 533</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1563017212FM"><div class="nodecontent" style="color:#111111;">
+										Debug logs 534</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1406342000FM"><div class="nodecontent" style="color:#111111;">
+										Cleanup logs 542</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1428789808FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Persistent cookies 539</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N66955&quot;)" id="imgN66955" /></a><a id="FMFreemind_Link_1789176035FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Source code 540</div>
+							<div class="content" id="N66955">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_588485805FM"><div class="nodecontent" style="color:#111111;">
+										Test code 531</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1994979499FM"><div class="nodecontent" style="color:#111111;">
+										Include source 541</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1944895345FM"><div class="nodecontent" style="color:#111111;">
+										Source code comments 615</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1391283509FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Directory listing 548</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1275944503FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								XML External entity 611</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1789932327FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								WSDL file 651</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67056&quot;)" id="imgN67056" /></a><a id="FMFreemind_Link_543772167FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Data channel</div>
+					<div class="content" id="N67056">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_327479568FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								201</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67089&quot;)" id="imgN67089" /></a><a id="FMFreemind_Link_1043656545FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Cache</div>
+					<div class="content" id="N67089">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_548864534FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								524</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_880934488FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Browser cache 525</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67138&quot;)" id="imgN67138" /></a><a id="FMFreemind_Link_87333549FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Memory heap</div>
+					<div class="content" id="N67138">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1344274613FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								244</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67171&quot;)" id="imgN67171" /></a><a id="FMFreemind_Link_734346758FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Process invocation elements</div>
+					<div class="content" id="N67171">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_856390639FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								</a>
+								<a href="http://cwe.mitre.org/data/definitions/214.html">
+								214</a>
+								<a href="http://cwe.mitre.org/data/definitions/214.html">
+								<img src="informationleakst.html_files/ilink.png" alt="User Link" style="border-width:0" /></a></div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /><a id="FMFreemind_Link_1531856395FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Process parameters</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1596580323FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Process environments</div>
+							</a>
+							<a onclick="getVisibleParents('FMFreemind_Link_502448860FM')" href="#FMFreemind_Link_502448860FM">
+							<img src="informationleakst.html_files/ilink.png" class="ilink" alt="Arrow Link" /></a></div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67245&quot;)" id="imgN67245" /><a id="FMFreemind_Link_168311779FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Debug information</div>
+					<div class="content" id="N67245">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1283746132FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								215</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67278&quot;)" id="imgN67278" /></a><a id="FMFreemind_Link_1980397750FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Sensitive information</div>
+					<div class="content" id="N67278">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_317197903FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								200</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67310&quot;)" id="imgN67310" /></a><a id="FMFreemind_Link_1249355115FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								User information</div>
+							<div class="content" id="N67310">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1169721818FM"><div class="nodecontent" style="color:#111111;">
+										202</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67338&quot;)" id="imgN67338" /></a><a id="FMFreemind_Link_71721732FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Credentials</div>
+							<div class="content" id="N67338">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_592501773FM"><div class="nodecontent" style="color:#111111;">
+										255</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67367&quot;)" id="imgN67367" /></a><a id="FMFreemind_Link_685010777FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						System data</div>
+					<div class="content" id="N67367">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_782841166FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								497</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67399&quot;)" id="imgN67399" /></a><a id="FMFreemind_Link_502448860FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								OS environment variables</div>
+							<div class="content" id="N67399">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1117826993FM"><div class="nodecontent" style="color:#111111;">
+										526</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67428&quot;)" id="imgN67428" /></a><a id="FMFreemind_Link_1608407021FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Error message</div>
+					<div class="content" id="N67428">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_695143653FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								209</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67460&quot;)" id="imgN67460" /></a><a id="FMFreemind_Link_587625134FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Product generated 210</div>
+							<div class="content" id="N67460">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1610426570FM"><div class="nodecontent" style="color:#111111;">
+										Shell error message 535</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1215214214FM"><div class="nodecontent" style="color:#111111;">
+										Servlet runtime error message 536</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_195991232FM"><div class="nodecontent" style="color:#111111;">
+										Java runtime error message 537</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1641299016FM"><div class="nodecontent" style="color:#111111;">
+										Server error message 550</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1933758829FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Product-external 211</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67541&quot;)" id="imgN67541" /></a><a id="FMFreemind_Link_521722546FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Indices</div>
+					<div class="content" id="N67541">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_339927488FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								612</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67574&quot;)" id="imgN67574" /></a><a id="FMFreemind_Link_78335327FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Internal state</div>
+					<div class="content" id="N67574">
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67590&quot;)" id="imgN67590" /></a><a id="FMFreemind_Link_1503894848FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								203</div>
+							<div class="content" id="N67590">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1656423958FM"><div class="nodecontent" style="color:#111111;">
+										204</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67618&quot;)" id="imgN67618" /></a><a id="FMFreemind_Link_1168071435FM"><div class="nodecontent" style="color:#111111;">
+										205</div>
+									<div class="content" id="N67618">
+										<div class="node">
+											<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1971574913FM"><div class="nodecontent" style="color:#111111;">
+												206</div>
+										</div>
+										<div class="node">
+											<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_905433110FM"><div class="nodecontent" style="color:#111111;">
+												207</div>
+										</div>
+									</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_181376331FM"><div class="nodecontent" style="color:#111111;">
+										208</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67668&quot;)" id="imgN67668" /></a><a id="FMFreemind_Link_1939011420FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Covert channel</div>
+					<div class="content" id="N67668">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1596415711FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								385</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1108143371FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								514</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_495756173FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								515</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="node">
+			<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67734&quot;)" id="imgN67734" /></a><a id="FMFreemind_Link_488599517FM"><div class="nodecontent" style="color:#0033ff;font-size:150%;">
+				Consequences</div>
+			<div class="content" id="N67734">
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67751&quot;)" id="imgN67751" /></a><a id="FMFreemind_Link_644862440FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Sensitive information exposure to unauthorized parties</div>
+					<div class="content" id="N67751">
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67767&quot;)" id="imgN67767" /><img src="informationleakst.html_files/icons/forward.png" alt="forward" />
+							</a><a id="FMFreemind_Link_1886538584FM">
+							<div class="nodecontent" style="color:#990000;font-size:117%;">
+								(leads to)</div>
+							<div class="content" id="N67767">
+								<div class="node">
+									<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67785&quot;)" id="imgN67785" /></a><a id="FMFreemind_Link_1549666385FM"><div class="nodecontent" style="color:#111111;">
+										Privacy violation</div>
+									<div class="content" id="N67785">
+										<div class="node">
+											<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_265465752FM"><div class="nodecontent" style="color:#111111;">
+												credit card</div>
+										</div>
+										<div class="node">
+											<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_828710757FM"><div class="nodecontent" style="color:#111111;">
+												health records</div>
+										</div>
+										<div class="node">
+											<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_327710216FM"><div class="nodecontent" style="color:#111111;">
+												359</div>
+										</div>
+									</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67833&quot;)" id="imgN67833" /></a><a id="FMFreemind_Link_1004650331FM"><div class="nodecontent" style="color:#111111;">
+										Further attack</div>
+									<div class="content" id="N67833">
+										<div class="node">
+											<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1999198273FM"><div class="nodecontent" style="color:#111111;">
+												password</div>
+										</div>
+										<div class="node">
+											<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1589219811FM"><div class="nodecontent" style="color:#111111;">
+												Denial of service</div>
+										</div>
+										<div class="node">
+											<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_414681753FM"><div class="nodecontent" style="color:#111111;">
+												Unauthorized access to system</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1056831415FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								200</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="node">
+			<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67900&quot;)" id="imgN67900" /></a><a id="FM_FM"><div class="nodecontent" style="color:#0033ff;font-size:150%;">
+				Weakness</div>
+			<div class="content" id="N67900">
+				<div class="node">
+					<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67917&quot;)" id="imgN67917" /></a><a id="FMFreemind_Link_1351384226FM"><div class="nodecontent" style="color:#00b439;font-size:133%;">
+						Expose sensitive information</div>
+					<div class="content" id="N67917">
+						<div class="node">
+							<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1095366384FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								200</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67949&quot;)" id="imgN67949" /></a><a id="FMFreemind_Link_1825969521FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Exposure of sensitive information due to inference 
+								or discrepancy</div>
+							<div class="content" id="N67949">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1802853372FM"><div class="nodecontent" style="color:#111111;">
+										203</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1821250897FM"><div class="nodecontent" style="color:#111111;">
+										202</div>
+								</div>
+							</div>
+						</div>
+						<div class="node">
+							<img src="informationleakst.html_files/hide.png" class="hideshow" alt="hide" onclick="toggle(&quot;N67989&quot;)" id="imgN67989" /></a><a id="FMFreemind_Link_144491498FM"><div class="nodecontent" style="color:#990000;font-size:117%;">
+								Exposure of resource to wrong sphere</div>
+							<div class="content" id="N67989">
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1516533288FM"><div class="nodecontent" style="color:#111111;">
+										668</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_914026062FM"><div class="nodecontent" style="color:#111111;">
+										402</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1145500587FM"><div class="nodecontent" style="color:#111111;">
+										610</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_1576054240FM"><div class="nodecontent" style="color:#111111;">
+										669</div>
+								</div>
+								<div class="node">
+									<img src="informationleakst.html_files/leaf.png" class="hideshow" alt="leaf" /></a><a id="FMFreemind_Link_33738121FM"><div class="nodecontent" style="color:#111111;">
+										673</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</a>
+
+</body>
+
+</html>

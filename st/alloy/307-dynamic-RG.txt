@@ -1,0 +1,85 @@
+open util/ordering [Actor] as a0
+open util/ordering [Actor] as a
+
+// CWE-664
+abstract sig Resource {}
+
+// CWE-284
+sig RestrictedResource extends Resource {
+	protectedBy: AccessControl
+}
+
+// CWE-284
+abstract sig AccessControl extends ProtectionMechanism {
+	protects: RestrictedResource,
+	allow: set Actor
+}
+
+fact {
+	protectedBy = ~protects
+}
+
+// CWE-693
+abstract sig ProtectionMechanism {}
+
+// CWE-287 and CWE-284
+one sig Authentication extends AccessControl {
+	authentic: Actor -> Credential
+}
+
+// CWE-287?
+sig Credential {}
+
+
+// Frequency is # of OperationAttemptTimeStamps per TimeFrame
+// Example: 5 attemps per second
+
+sig TimeFrame {
+	contains: set OperationAttemptTimeStamp
+}
+sig OperationAttemptTimeStamp{
+	//A TimeStamp cannot be part of more than one TimeFrame (laws of nature)
+	partof: lone TimeFrame
+}
+
+fact {
+	partof = ~contains
+}
+//Actor is the one having interaction with the software
+sig Actor{
+	performsOperation: TimeFrame -> OperationAttemptTimeStamp -> RestrictedResource
+}
+
+
+pred init [a:Actor] {
+	no a.performsOperation
+}
+
+
+fact traces{
+	init [a0/first]
+	all a: Actor - a0/last|
+		let a'= a.next | 
+			some tf:TimeFrame, t:OperationAttemptTimeStamp, r: RestrictedResource |
+				operate [a, a', tf, t, r]
+}
+
+pred operate [a,a': Actor, tf:TimeFrame, t:OperationAttemptTimeStamp, r: RestrictedResource] {
+	//The timestamp is within the TimeFrame (laws of nature)
+	t in tf.contains	
+	a'.performsOperation =  a.performsOperation + tf->t ->r
+}
+run operate
+
+
+assert noExcessiveInteraction {
+	no a: Actor, tf:TimeFrame, p:ProtectionMechanism, c:Credential|
+		#a.performsOperation[tf] > 1 && a->c not in p.authentic //This number can be parameterized
+}
+check noExcessiveInteraction
+
+
+fact {
+//	all a: Actor, tf:TimeFrame, p:ProtectionMechanism, c:Credential|
+	//	#a.performsOperation[tf] < 2 //This number can be parameterized
+}

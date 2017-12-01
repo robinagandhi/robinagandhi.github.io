@@ -1,0 +1,75 @@
+open util/ordering [Software] as s0
+
+sig Buffer {
+	start: one StartLocation,
+	end: one EndLocation,
+	contains: set Location,
+}
+
+sig Location { 
+	partof: set Buffer,
+	previousLocation: lone Location,
+	nextLocation: lone Location,
+	position: lone Int
+}
+
+one sig StartLocation extends Location { } 
+{ 	no previousLocation 
+	position = 1
+}
+one sig EndLocation extends Location { } { no nextLocation }
+
+fact { all l1: Location, l2: l1.nextLocation | l2.previousLocation = l1 }
+fact { all l1: Location, l2: l1.nextLocation | l2.position = l1.position.plus[1] }
+fact { all l: Location | l.position > 0 }
+fact { all l,l': Location | disj[l,l'] implies disj [l.position, l'.position] }
+fact { 
+	all l: Location, b: Buffer | 
+				l in b.start.*nextLocation iff l in b.contains	
+		all l: Location, b: Buffer | 
+				l in b.start implies 
+						l in b.contains
+		all l: Location, b: Buffer | 
+				l in b.end implies 
+						l in b.contains
+}
+fact {
+	partof = ~contains
+}
+
+sig Software{
+	performsOperation: Buffer set -> set Location
+}
+
+pred init [s:Software] {
+	no s.performsOperation
+}
+
+
+fact traces{
+	init [s0/first]
+	all s: Software - s0/last|
+		let s'= s.next | 
+			some b:Buffer, l:Location |
+				operate [s, s', b, l]
+}
+
+pred operate [s,s': Software, b:Buffer, l:Location] {
+		s'.performsOperation =  s.performsOperation + b->l
+}
+run operate
+
+
+assert allreachableSafe {
+	no s: Software, b:Buffer|
+		let l = s.performsOperation[b] |
+			l not in b.contains
+}
+check allreachableSafe
+
+fact {
+//	all s:Software, b:Buffer, l:Location|
+	//	l in s.performsOperation[b] implies l in b.contains
+}
+
+

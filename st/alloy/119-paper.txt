@@ -1,0 +1,60 @@
+
+// Signature: Buffer with a relation
+// contains that identifies 
+// the set of locations that are contained in the buffer
+sig Buffer {
+	contains: set Location
+}
+
+// Signature: A Location is part of zero or one Buffers
+// Signature: Location with a relation
+// partof that identifies 
+// zero to one Buffer that the Location is a part of.
+sig Location{
+	partof: set Buffer
+}
+
+fact {
+	//partof relation is the inverse of contains
+	partof = ~contains
+}
+
+// Signature: Software with a relation
+// performsOperation that captures a 
+// software operation on a buffer at a set of locations
+sig Software{
+	performsOperation: Buffer set -> set Location
+}
+
+// Predicate: Operate that captures a 
+// software operation on a buffer at a location
+// This predicate also allows us to confirm that the model produces valid instances
+pred operate 
+[s: Software, b: Buffer, l: Location] {
+	b->l in s.performsOperation
+}
+
+// Run predicate operate for one Buffer, five Locations and one Software
+run operate for 
+1 Buffer, 3 Location, 1 Software
+
+// Assertion: All software operations on a buffer
+// are restricted within the bounds of the buffer 
+assert noBufferOverflow{
+
+	all s: Software, b:Buffer, l:Location| 
+			operate[s,b,l] implies l in b.contains
+}
+check noBufferOverflow for 1 Buffer, 3 Location, 1 Software
+
+
+// Fact: Software operations on a Buffer are 
+// restricted to the bounds of that Buffer
+fact limitBufferOverflow {
+
+	all s: Software, b:Buffer| 
+		s.performsOperation[b] in b.contains
+
+}
+
+

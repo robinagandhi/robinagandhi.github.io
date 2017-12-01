@@ -1,0 +1,35 @@
+
+sig Software{
+	acceptsInput: UpstreamComponent -> Input
+}
+
+sig Input {
+	hasValidity: Validness
+}
+
+abstract sig Validness{}
+
+one sig inValid, Valid extends Validness{}
+
+one sig UpstreamComponent{}
+
+//Upstream Read
+pred read 
+[s: Software, i:Input, u:UpstreamComponent] {
+	u->i in s.acceptsInput
+}
+run read
+
+assert noInValidInputRead {
+	all s: Software, i:Input, u:UpstreamComponent | 
+		read [s, i, u] implies i.hasValidity in Valid
+}
+check noInValidInputRead
+
+fact enforceValidity {
+	all s: Software, u:UpstreamComponent | 
+		s.acceptsInput[u].hasValidity in Valid
+} 
+
+
+

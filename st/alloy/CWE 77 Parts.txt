@@ -1,0 +1,61 @@
+sig Software{
+	constructsOutput: Output
+}
+
+sig Output {
+	hasType: OutputType,
+	hasPart: set OutputPart,
+	hasDestination: DownstreamComponent
+}
+
+sig OutputPart {
+	isConstructedFrom: Software -> Input,
+	includesElement: Element
+}
+
+abstract sig OutputType{}
+//one sig Command, DataStructure, Record extends OutputType{}
+one sig Command extends OutputType{}
+
+sig Input {
+	hasSource: UpstreamComponent,
+	includesElement: Element
+}
+
+one sig ExternalInfluence{
+	influences: Input
+}
+
+abstract sig Element{}
+
+one sig AllowedElement, SpecialElement extends Element{}
+
+one sig DownstreamComponent, UpstreamComponent {}
+
+// Downstream Send
+pred send 
+[s: Software, i:Input, o:Output, op:OutputPart] {
+		op in o.hasPart and
+			o in s.constructsOutput and  
+				s->i in op.isConstructedFrom 
+			
+}
+run send// for 1 Software, 1 Output, 3 OutputPart, 1 Input
+
+assert noOutputWithSpecialElements {
+	no s: Software, i:Input, o:Output, op:OutputPart | 
+		send [s, i, o, op] and
+			op.includesElement in SpecialElement			
+}
+check noOutputWithSpecialElements // for 10 Software, 10 Output, 10 OutputPart, 10 Input
+
+pred isModelOverConstrained [s:Software, i:Input, op:OutputPart] {
+		s->i in op.isConstructedFrom and
+				i.includesElement in SpecialElement
+}
+run isModelOverConstrained
+
+fact neutralizeSpecialElements{
+	all s: Software, i:Input, o:Output, op:OutputPart |
+			send [s, i, o, op] iff op.includesElement not in SpecialElement
+}

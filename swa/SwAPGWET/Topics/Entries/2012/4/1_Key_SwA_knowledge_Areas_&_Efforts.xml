@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="B7AB1949-CE90-4289-A32D-3049187EF0A7">
+  <lastEdited clientType="local-build-20120524" date="2012-05-25 01:55:38 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Knowledge Areas &amp; Efforts</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>The chart summarizes available workforce training materials and shows where to look for resources in SwA-related fields.</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="1_Key_SwA_knowledge_Areas_%26_Efforts_files/shapeimage_1.png" left="0px" top="0px" width="661px" height="598px"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Key SwA knowledge Areas &amp; Efforts</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;4/1/12&lt;/b&gt;</richText>
+  </textBox>
+</content>

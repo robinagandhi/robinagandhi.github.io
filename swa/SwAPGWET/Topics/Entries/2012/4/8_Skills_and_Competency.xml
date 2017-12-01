@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="B7AB1949-CE90-4289-A32D-3049187EF0A7">
+  <lastEdited clientType="local-build-20120524" date="2012-05-25 01:55:35 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>SKILLS AND COMPETENCY</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="8_Skills_and_Competency_files/shapeimage_1.png" left="0px" top="0px" width="395px" height="210px"/>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Credentials, Competencies and Skills by performance level&#xD;&#xD;&lt;b&gt;Entry, Intermediate and Advanced&#xD;&lt;/b&gt;Software Development&#xD;Written &amp; Oral Communication&#xD;Creative Problem Solving&#xD;Information Security/Assurance&#xD;Critical Thinking and Analytical Skills	&#xD;&#xD;&lt;b&gt;Intermediate and Advanced&#xD;&lt;/b&gt;Software Engineering&#xD;Project/Program Management&#xD;Leadership &amp; People Management	&#xD;&#xD;&#xD;&lt;b&gt;Entry&lt;/b&gt;: Associate&#x2019;s Degree from an accredited program&#xD;&lt;b&gt;Intermediate:&lt;/b&gt; Bachelor&#x2019;s Degree from an accredited program	&#xD;&lt;b&gt;Advanced:&lt;/b&gt; Master&#x2019;s Degree from an accredited program plus 5 years&#x2019; experience&#xD;Suggested Credentials in:&#xD;    Computer science/engineering&#xD;    Database/information management&#xD;    Information assurance/security&#xD;    Software assurance/security &#xD;    Information systems management&#xD;&#xD;&lt;b&gt;OR &#xD;&#xD;&lt;/b&gt;&lt;b&gt;Entry:&lt;/b&gt; 1 year experience in work directly related to: Secure network design, Database design and security, Secure coding and testing techniques &#xD;&lt;b&gt;Intermediate:&lt;/b&gt; 6 years experience, Possession and demonstrated application of relevant certifications (as determined by the department/agency)&#xD;&lt;b&gt;Advanced:&lt;/b&gt; Bachelor&#x2019;s degree + 10 years relevant work experience and project management experience, Possession and demonstrated application of relevant certifications (as determined by the department/agency), with the addition of PMP&#xD;Alternative experience/credentials:&#xD;Information systems security certifications (e.g., ISC&#xB2; CSSLP and CISSP, various SANS certs, EnCase Cybersecurity suite)&#xD;Network engineering certifications (e.g., EnCase forensics suite, Cisco Certified Internetwork Expert (CCIE), GIAC Security Essentials Certification GSEC)&#xD;Software/systems administration/engineering/development/ Database Management System (DBMS)certifications&#xD;Relevant programming languages experience	&#xD;&#xD;&#xD;RESOURCES&#xD;&#xD;Materials from the matrix project developed by Federal CIO Council&#x2019;s IT Workforce Committee and Information Security and Identity Management Committee.&#xD;Contacts: &lt;a href="http://www.cio.gov/committees.cfm/csec/3/cid/4"&gt;http://www.cio.gov/committees.cfm/csec/3/cid/4&lt;/a&gt;.&#xD;&lt;a href="http://www.cio.gov/committees.cfm/csec/3/cid/5"&gt;http://www.cio.gov/committees.cfm/csec/3/cid/5&lt;/a&gt;&#xD;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Skills and Competency</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;4/8/12&lt;/b&gt;</richText>
+  </textBox>
+</content>
