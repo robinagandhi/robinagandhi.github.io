@@ -7,7 +7,7 @@ layout: home
 
 ### Robin Gandhi
 Charles W. and Margre H. Durham Distinguished Professor   
-of College of Information Science and Technology
+of College of Information Science and Technology  
 Associate Professor of Cybersecurity  
 University of Nebraska at Omaha  
 
