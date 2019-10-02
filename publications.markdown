@@ -6,7 +6,7 @@ permalink: /pubs/
 
 ## In-progress
 
-**Journal** Gandhi, R., Germonprez, R. M., Link, G., (Graduate). (2019) The Domestication of Open Source Project Engagement: The Role of Routines. Under review
+**Journal** Gandhi, R., Germonprez, R. M., Link, G., The Domestication of Open Source Project Engagement: The Role of Routines. Under review
 
 **Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Being developed.
 
