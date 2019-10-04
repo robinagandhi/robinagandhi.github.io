@@ -6,25 +6,26 @@ permalink: /research/
 
 ## Sponsored Projects
 
-Gandhi, R.	Mahoney,W. and Siy, H	Safety Software Assurance Compliance and Risk Evaluation (S-SACRE)  
+Gandhi, R.	Mahoney, W. and Siy, H	Safety Software Assurance Compliance and Risk Evaluation (S-SACRE)  
 $139,468.00  
 8/14/2019 to 7/13/2020  
 Sponsor: Tri-Guard Risk Solutions, LTD  
 Prime: U.S. Department of Defense NAVAIR  
 
 
-Gandhi, R.	Hale, Matt	On Patching Life-Critical Systems  
+Gandhi, R.	Hale, M.	On Patching Life-Critical Systems  
 $176,315.00  
 03/01/2019 - 07/28/2020  
 Sponsor: Nebraska Applied Research Institute  
 Prime: Defense Advanced Research Projects Agency
 
-Gandhi, R.	Siy, Harvey	SACRE Enhancements  
+Gandhi, R.	Siy, H.	SACRE Enhancements  
 $199,939.00      
 08/15/2018 - 08/14/2019  
 Tri-Guard Risk Solutions, LTD  
 
-Gandhi, R.	Khazanchi, Deepak, Ricks, Brian	  
+Gandhi, R.	Khazanchi, D., Ricks, B. UNO
+Linzell, D., Sim, C. UNL
 Spokes: MEDIUM: MIDWEST: SMart big data pipelines for Aging Rural bridge Transportation Infrastructure (SMARTI)    
 $999,987.00  
 09/01/2018 - 08/31/2021  
@@ -36,7 +37,8 @@ $37,982
 04/22/2017 - 05/31/2018	  
 National Security Agency  
 
-Gandhi, R.	Ricks, B.; Khazanchi, D., Sim, C., Linzell, D.	  
+Gandhi, R.	Khazanchi, D., Ricks, B. UNO
+Linzell, D., Sim, C. UNL 
 PLANNING: MIDWEST: Big Data Innovations for Bridge Health  
 $99,959.00  
 Aug 2016 – Aug 2018	  
@@ -48,7 +50,7 @@ $69,798.00
 April 2016 – Feb 2017	    
 Department of Energy, Nuclear Energy Phase 1 STTR with Tri-Guard Risk Solutions, LTD
 
-Fruhling, A.	Cooper K, Bastola D, Gandhi R. Ghersi D., Morien, M, Hinrichs S.  
+Fruhling, A., Cooper K, Bastola D, Gandhi R. Ghersi D., Morien, M, Hinrichs S.  
 Predicting the Spread of Chikungunya in the Americas  
 $10,000  
 Fall 2014-Spring 2015	  
