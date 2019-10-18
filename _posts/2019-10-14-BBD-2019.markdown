@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "BBD 2019 Workshop"
+date:   2019-10-14 08:30:00 -0500
+categories: news
+---
+
+The 4th [Bridging Big Data workshop](https://bridgingbigdata.github.io/pages/bbd2019.html) was a huge success! This offering of the workshop featured a great collection of talks and discussions related to generating, analyzing and using bridge health data. 
+
+The [workshop agenda page](https://bridgingbigdata.github.io/pages/bbd2019agenda.html) now hosts the presentation and posters from several speakers.
