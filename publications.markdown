@@ -6,15 +6,16 @@ permalink: /pubs/
 
 ## In-progress
 
-**Journal** Gandhi, R., Germonprez, R. M., Link, G., The Domestication of Open Source Project Engagement: The Role of Routines. Under review
-
 **Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Being developed.
 
-**Journal** Kale, A., Gandhi, R., Ricks, B., Identifying predictors of bridge deterioration in The United States from a data science perspective. Being developed.
+**Journal** Gandhi, R., Germonprez, R. M., Link, G., The Domestication of Open Source Project Engagement: The Role of Routines. Under review
 
-**Journal** Avande, M. Siy, H., Gandhi, R., Understanding User Engagement with Norm Models. Being developed.
+**Journal** Kale, A., Gandhi, R., Ricks, B., Identifying predictors of bridge deterioration in The United States from a data science perspective. Under Review.
+
 
 ## Major Research Products
+
+**Journal** Avande, M. Gandhi, R., Siy, H., Understanding User Engagement With Multi-Representational License Comprehension Interfaces, IJOSSP: Volume 11, Issue 4, Article 2, Accepted, December 2020.
 
 **Journal** Mandal, S., Gandhi, R. & Siy, H. Modular norm models: practical representation and analysis of contractual rights and obligations, Requirements Eng. (2019). https://doi.org/10.1007/s00766-019-00323-y  (Impact Factor 2.761) Accepted 26 July 2019, First Online 05 August 2019.
 
