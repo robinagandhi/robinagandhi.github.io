@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Journal Paper Accepted"
+date:   2020-12-14 08:30:00 -0500
+categories: news
+---
+
+My Master's student, Ovivier Avande's thesis work was extended and developed into a Journal publication. 
+
+**Journal** Avande, M. Gandhi, R., Siy, H., [Understanding User Engagement With Multi-Representational License Comprehension Interfaces](https://www.igi-global.com/journal/international-journal-open-source-software/1123), IJOSSP: Volume 11, Issue 4, Article 2, Accepted, December 2020.
+
+### Abstract
+License information for any non-trivial open-source software demonstrates the growing complexity of compliance management. Studies have shown that understanding open-source licenses is difficult. Prior research has not examined how developers would use interfaces displaying license text and its graphical models in studying a license. Consequently, a repeatable eye tracking-based methodology was developed to study user engagement when exploring open-source rights and obligations in multi-modal fashion. Experiences of ten participants in an exploratory case study design indicate that eye-tracking is feasible to quantitatively and qualitatively observe distinct interaction patterns in the use of license comprehension interfaces. A low correlation was observed between self-reported usability survey data and eye-tracking data. Conversely, a high correlation between eye-tracker and mouse data suggests the use of either in future studies. This paper provides a framework to conduct such studies as an alternative to surveys while offering interesting hypotheses for future studies.

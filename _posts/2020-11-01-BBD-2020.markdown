@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "BBD 2020 Workshop"
+date:   2020-11-01 08:30:00 -0500
+categories: news
+---
+
+The 5th [Bridging Big Data workshop](https://bridgingbigdata.github.io/pages/bbd2020.html) was a huge success! The virtual format workshop featured a great collection of talks and discussions related to  data-informed bridge infrastructure resilience in crisis times. 
+
+The [workshop agenda page](https://bridgingbigdata.github.io/pages/bbd2020agenda.html) now hosts the presentations and posters from several speakers.
