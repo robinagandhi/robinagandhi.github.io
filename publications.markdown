@@ -10,12 +10,11 @@ permalink: /pubs/
 
 **Journal** Gandhi, R., Germonprez, R. M., Link, G., The Domestication of Open Source Project Engagement: The Role of Routines. Under review
 
-**Journal** Kale, A., Gandhi, R., Ricks, B., Identifying predictors of bridge deterioration in The United States from a data science perspective. Under Review.
-
-
 ## Major Research Products
 
-**Journal** Avande, M. Gandhi, R., Siy, H., Understanding User Engagement With Multi-Representational License Comprehension Interfaces, IJOSSP: Volume 11, Issue 4, Article 2, Accepted, December 2020.
+**Journal** Kale, A., Ricks, B., & Gandhi, R. (2021) New Measure to Understand and Compare Bridge Conditions Based on​ Inspections Time-Series Data. Journal of infrastructure systems, doi:10.1061/(ASCE)IS.1943-555X.0000633.
+
+**Journal** Avande, M. Gandhi, R., Siy, H., Understanding User Engagement With Multi-Representational License Comprehension Interfaces, IJOSSP: Volume 11, Issue 4, Article 2, December 2020.
 
 **Journal** Mandal, S., Gandhi, R. & Siy, H. Modular norm models: practical representation and analysis of contractual rights and obligations, Requirements Eng. (2019). https://doi.org/10.1007/s00766-019-00323-y  (Impact Factor 2.761) Accepted 26 July 2019, First Online 05 August 2019.
 
@@ -103,7 +102,7 @@ permalink: /pubs/
 
 **Conference** Gandhi, R.A., Mahoney, W., Dick, K. (2009) ADACS – A Language for Monitoring Regulatory Compliance in Control Systems, In Proceedings of the 2nd Workshop on Compiler and Architectural Techniques for Application Reliability and Security at the 39th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2009), Lisbon, Portugal.
 
-**Conference** Gandhi R.A. and Lee, S.W., (2009) Assurance Case driven Case Study Design in Requirements Engineering Research, In: 15th International Conference on Requirements Engineering: Foundations for Software Quality, REFSQ 2009. LNCS Springer. 
+**Conference** Gandhi R.A. and Lee, S.W., (2009) Assurance Case driven Case Study Design in Requirements Engineering Research, In: 15th International Conference on Requirements Engineering: Foundations for Software Quality, REFSQ 2009. LNCS Springer.
 
 **Journal** Lee, S.W, Gandhi R.A., Wagle, S.J. (2009) Ontology Guided Service –Oriented Architecture Composition to Support Complex and Tailorable Process Definitions.  In the International Journal of Software Engineering and Knowledge Engineering, Vol. 19, Issue 6, 2009, p. 791-821, DOI: 10.1142/S0218194009004386.
 
