@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Associate Professor of Cybersecurity @ The University of Nebraska at Omaha
 
 # !!!!MAKE SURE TO UPDATE THIS TO THE REPO NAME!!!!!
-baseurl: "robinagandhi.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: robinagandhi
 github_username:  robinagandhi
