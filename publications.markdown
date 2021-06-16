@@ -8,13 +8,15 @@ permalink: /pubs/
 
 **Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Being developed.
 
-**Journal** Gandhi, R., Germonprez, R. M., Link, G., The Domestication of Open Source Project Engagement: The Role of Routines. Under review
+
 
 ## Major Research Products
 
+**Journal** Gandhi, R., Germonprez, R. M., Link, G., (2021) The Domestication of Open Source Project Engagement: The Role of Routines. Accepted for publication in Communications of the Association for Information Systems
+
 **Journal** Kale, A., Ricks, B., & Gandhi, R. (2021) New Measure to Understand and Compare Bridge Conditions Based on​ Inspections Time-Series Data. Journal of infrastructure systems, doi:10.1061/(ASCE)IS.1943-555X.0000633.
 
-**Journal** Avande, M. Gandhi, R., Siy, H., Understanding User Engagement With Multi-Representational License Comprehension Interfaces, IJOSSP: Volume 11, Issue 4, Article 2, December 2020.
+**Journal** Avande, M. Gandhi, R., Siy, H., (2020) Understanding User Engagement With Multi-Representational License Comprehension Interfaces, IJOSSP: Volume 11, Issue 4, Article 2, December 2020.
 
 **Journal** Mandal, S., Gandhi, R. & Siy, H. Modular norm models: practical representation and analysis of contractual rights and obligations, Requirements Eng. (2019). https://doi.org/10.1007/s00766-019-00323-y  (Impact Factor 2.761) Accepted 26 July 2019, First Online 05 August 2019.
 
