@@ -12,7 +12,7 @@ permalink: /pubs/
 
 ## Major Research Products
 
-**Journal** Gandhi, R., Germonprez, R. M., Link, G., (2021) The Domestication of Open Source Project Engagement: The Role of Routines. Accepted for publication in Communications of the Association for Information Systems
+**Journal** Germonprez, M., Gandhi, R. A., & Link, G. (2021). The Routinization of Open Source Project Engagement: The Case of Open Source Risk Management Routines. Communications of the Association for Information Systems, 49, pp-pp. https://doi.org/10.17705/1CAIS.04938
 
 **Journal** Kale, A., Ricks, B., & Gandhi, R. (2021) New Measure to Understand and Compare Bridge Conditions Based on​ Inspections Time-Series Data. Journal of infrastructure systems, doi:10.1061/(ASCE)IS.1943-555X.0000633.
 
