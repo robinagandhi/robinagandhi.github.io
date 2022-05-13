@@ -27,10 +27,11 @@ $139,468.00
 Sponsor: Tri-Guard Risk Solutions, LTD  
 Prime: U.S. Department of Defense NAVAIR  
 
-Hale, M., Gandhi, Robin., Dorn, B., Morrison, B. 2020 GenCyber Teacher Program
-$84,747
-04/01/2020 - 03/31/2022
-Sponsor: National Security Agency
+Hale, M., Gandhi, Robin., Dorn, B., Morrison, B.   
+2020 GenCyber Teacher Program   
+$84,747   
+04/01/2020 - 03/31/2022  
+Sponsor: National Security Agency   
 
 Gandhi, R.	Hale, M.	On Patching Life-Critical Systems  
 $176,315.00  
