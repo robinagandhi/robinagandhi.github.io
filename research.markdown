@@ -6,21 +6,22 @@ permalink: /research/
 
 ## Sponsored Projects
 
-Hale, M., Gandhi, Robin., Babb, D., Dorn, B., 2021 GenCyber Student Program
-09/15/2021 - 12/31/2023
-$149,943
-Sponsor: National Security Agency 
+Hale, M., Gandhi, Robin., Babb, D., Dorn, B., 2021 GenCyber Student Program. 
+09/15/2021 - 12/31/2023  
+$149,943  
+Sponsor: National Security Agency   
 
-Hale, M.,	Gandhi, R. Development of a Robust, Nationally Accessible Cybersecurity Risk Management Curriculum for Technical and Managerial Cybersecurity Professionals
-09/29/2021 - 09/28/2022
-$125,000
-Sponsor: University of Illinois at Urbana-Champaign/U.S. Department of Homeland Security
+Hale, M.,	Gandhi, R. Development of a Robust, Nationally Accessible Cybersecurity Risk Management Curriculum for Technical and Managerial Cybersecurity Professionals   
+09/29/2021 - 09/28/2022  
+$125,000   
+Sponsor: University of Illinois at Urbana-Champaign/U.S. Department of Homeland Security   
 
-Gandhi, Robin	Ricks, Brian, Khazanchi, Deepak	Multilevel Analytics and Data Sharing for OPerations Planning (MADS-OPP)	
-$4.2M	
-Sponsor: US Army Crops of Engineers, Engineering Research and Development Center
+Gandhi, Robin	Ricks, Brian, Khazanchi, Deepak	  
+Multilevel Analytics and Data Sharing for OPerations Planning (MADS-OPP). 	
+$4.2M	  
+Sponsor: US Army Crops of Engineers, Engineering Research and Development Center. 
 
-Gandhi, R.	Mahoney, W. and Siy, H	Safety Software Assurance Compliance and Risk Evaluation (S-SACRE)  
+Gandhi, R.	Mahoney, W. and Siy, H	Safety Software Assurance Compliance and Risk Evaluation (S-SACRE)    
 $139,468.00  
 8/14/2019 to 7/13/2020  
 Sponsor: Tri-Guard Risk Solutions, LTD  
