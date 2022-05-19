@@ -12,7 +12,7 @@ $125,000
 Sponsor: University of Illinois at Urbana-Champaign/U.S. Department of Homeland Security   
 
 Gandhi, Robin	Ricks, Brian, Khazanchi, Deepak	  
-Multilevel Analytics and Data Sharing for OPerations Planning (MADS-OPP).   	
+Multilevel Analytics and Data Sharing for OPerations Planning (MADS-OPP).  
 $4.2M	  
 09/01/2021 to 12/31/2022  
 Sponsor: US Army Crops of Engineers, Engineering Research and Development Center. 
