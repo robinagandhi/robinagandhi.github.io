@@ -6,6 +6,12 @@ permalink: /research/
 
 ## Sponsored Projects
 
+Gandhi, R. Khazanchi, D., Ricks, B. UNO Linzell, D., Sim, C. UNL 
+SMART Analytics for Critical Infrastructure inside a Resilient Data Fabric (SMART-RDF).
+$4M 
+01/01/2023 to 12/31/2024
+Sponsor: US Army Crops of Engineers, Engineering Research and Development Center.
+
 Hale, M.,	Gandhi, R. Development of a Robust, Nationally Accessible Cybersecurity Risk Management Curriculum for Technical and Managerial Cybersecurity Professionals   
 09/29/2021 - 09/28/2022  
 $125,000   
