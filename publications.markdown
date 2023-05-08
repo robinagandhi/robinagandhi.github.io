@@ -12,6 +12,12 @@ permalink: /pubs/
 
 ## Major Research Products
 
+**Presentation** Kale, A., Ricks, B., Gandhi, R., (2023) Building Interpretable and Explainable Methods to Identify Bridge Deterioration, Performance, and Maintenance, 19th Annual Big XII+ MIS Research Symposium | March 24-26, 2023 | Naveen Jindal School of Management, University of Texas at Dallas
+
+**Workshop** Ramsey, A., Kale, A., Kassa, Y., Gandhi, R., Ricks, B., (2023) Toward Interactive Visualizations for Explaining Machine Learning Models, WiP Paper - Infrastructure Health Monitoring During Crises and Disaster, Proceedings of the 20th ISCRAM Conference, Omaha, NE. 
+
+**Workshop** Al-Harrasi, A., Grispos, G., Gandhi, R., (2023) Using Cybersecurity Testbeds to Evaluate (In)Secure Structural Health Monitoring Systems, WiP Paper - Cybersecurity and Emergency, Proceedings of the 20th ISCRAM Conference, Omaha, NE.
+
 **Journal** Germonprez, M., Gandhi, R. A., & Link, G. (2021). The Routinization of Open Source Project Engagement: The Case of Open Source Risk Management Routines. Communications of the Association for Information Systems, 49, pp-pp. https://doi.org/10.17705/1CAIS.04938
 
 **Journal** Kale, A., Ricks, B., & Gandhi, R. (2021) New Measure to Understand and Compare Bridge Conditions Based on​ Inspections Time-Series Data. Journal of infrastructure systems, doi:10.1061/(ASCE)IS.1943-555X.0000633.
