@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CYBR Hiring"
-date:   2022-10-11 08:30:00 -0500
+date:   2023-10-11 08:30:00 -0500
 categories: news
 ---
 

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "CYBR Hiring"
+date:   2023-08-30 08:30:00 -0500
+categories: news
+---
+
+Starting in Fall 2023, I am thrilled to be taking on the role of Associate Dean for Research, Technology, and Facilities at the College of IS&T. Our College is dedicated to fostering innovation, encouraging curiosity, and promoting research. I am eager to help our esteemed faculty lead the way in innovative breakthroughs. Our faculty and students have accomplished impressive feats by using scientific findings to develop practical solutions that benefit society. The college's research portfolio encompasses a wide range of projects, from small-scale seed grants to large-scale interdisciplinary research centers and collaborative programs that span multiple organizations. Our intellectual contributions range from basic to applied research, and we are active in promoting student-led research and celebrating grants that support our K-12 outreach initiatives. I am committed to securing investments and planning efforts that will support and further these endeavors.
