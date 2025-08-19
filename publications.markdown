@@ -24,13 +24,13 @@ permalink: /pubs/
 
 **Confereence** Kassa, Y., Heller, W., Lacy, B., Ricks, B., Gandhi, R. (2024). Bridge Health-Informed Route Planning: Challenges and Promises. International Conference on Transportation and Development 2024 (pp. 104-116). American Society of Civil Engineers. https://doi.org/10.1061/9780784485514.010
 
-Kale, A., Kassa, Y., Ricks, B., Gandhi, R. (2023). A Comparative Assessment of Bridge Deck Wearing Surfaces: Performance, Deterioration, and Maintenance. Applied Sciences, 13(19), 10883. https://doi.org/10.3390/app131910883
+**Journal** Kale, A., Kassa, Y., Ricks, B., Gandhi, R. (2023). A Comparative Assessment of Bridge Deck Wearing Surfaces: Performance, Deterioration, and Maintenance. Applied Sciences, 13(19), 10883. https://doi.org/10.3390/app131910883
 
 **Conference** Harrasi, A. A., Grispos, G., & Gandhi, R. (2023). Using Cybersecurity Testbeds to Evaluate (In)Secure Structural Health Monitoring Systems. Proceedings of the 20th International ISCRAM Conference (pp. 902–908). Omaha, USA: University of Nebraska at Omaha.
 
 **Conference** Ramsey, A., Kale, A., Kassa, Y., Gandhi, R., & Ricks, B. (2023). Toward Interactive Visualizations for Explaining Machine Learning Models. Proceedings of the 20th International ISCRAM Conference (pp. 837–852). Omaha, USA: University of Nebraska at Omaha.
 
-**Workshop** Kale, A., Ricks, B., Gandhi, R., (2023) Building Interpretable and Explainable Methods to Identify Bridge Deterioration, Performance, and Maintenance, 19th Annual Big XII+ MIS Research Symposium | March 24-26, 2023 | Naveen Jindal School of Management, University of Texas at Dallas
+**Workshop** Kale, A., Ricks, B., Gandhi, R., (2023) Building Interpretable and Explainable Methods to Identify Bridge Deterioration, Performance, and Maintenance, 19th Annual Big XII+ MIS Research Symposium, March 24-26, 2023, Naveen Jindal School of Management, University of Texas at Dallas
 
 **Workshop** Chetti, P., Ali, H., Ghersi, D., Gandhi, R., Ricks, B., Najjar, L. (2022). A New Approach for Analyzing Safety and Performance Factors in Civil Infrastructures Using Correlation Networks and Population Analysis. Structural Health Monitoring 2021.
 
