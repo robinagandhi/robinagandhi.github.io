@@ -6,15 +6,29 @@ permalink: /pubs/
 
 ## In-progress
 
-**Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Being developed.
+**Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Under review.
 
-## Major Research Products
+**Workshop** Farjad, S.M., Gandhi, R., Practice-Informed Pedagogy for Linux Security: Perspectives on ML-driven Solutions for Daemon Security, Under review.
+
+**Conference** Farjad, S.M., Gandhi, R., Grispos, G., SoK: A Taxonomy of Adversarial Attacks on Data-Driven Structural Health Monitoring. Under review.
+
+**Journal** Kale, A., Ricks, B., Gandhi, R., Understanding Performance and Explanations of Machine Learning Models: Practical Applications to Bridge Maintenance. Under preparation.
+
+**Journal** Kale, A., Kodali, A., Kassa, Y., Ricks, B., Gandhi, R., Integrating XAI methods with Formal Concept Analysis: A Case of Bridge Maintenance Strategies in Nebraska. Under preparation.
+
+**Conference** Kale, A., Ricks, B., Gandhi, R., A Framework for Interpretable and Explainable Machine Learning Models for Bridge Maintenance. Under preparation.
+
+## Research Products
+
+**Confereence** Farjad, S.M., Patllola, S.R., Kassa, Y., Grispos, G., Gandhi. R. (2025) Secure Edge Computing Reference Architecture for Data-driven Structural Health Monitoring: Lessons Learned from Implementation and Benchmarking. In Proceedings of the 2025 ACM Southeast Conference (ACMSE 2025). Association for Computing Machinery, New York, NY, USA, 145–154. https://doi.org/10.1145/3696673.3723074
+
+**Confereence** Kassa, Y., Heller, W., Lacy, B., Ricks, B., Gandhi, R. (2024). Bridge Health-Informed Route Planning: Challenges and Promises. International Conference on Transportation and Development 2024 (pp. 104-116). American Society of Civil Engineers. https://doi.org/10.1061/9780784485514.010
 
 **Conference** Harrasi, A. A., Grispos, G., & Gandhi, R. (2023). Using Cybersecurity Testbeds to Evaluate (In)Secure Structural Health Monitoring Systems. Proceedings of the 20th International ISCRAM Conference (pp. 902–908). Omaha, USA: University of Nebraska at Omaha.
 
 **Conference** Ramsey, A., Kale, A., Kassa, Y., Gandhi, R., & Ricks, B. (2023). Toward Interactive Visualizations for Explaining Machine Learning Models. Proceedings of the 20th International ISCRAM Conference (pp. 837–852). Omaha, USA: University of Nebraska at Omaha.
 
-**Presentation** Kale, A., Ricks, B., Gandhi, R., (2023) Building Interpretable and Explainable Methods to Identify Bridge Deterioration, Performance, and Maintenance, 19th Annual Big XII+ MIS Research Symposium | March 24-26, 2023 | Naveen Jindal School of Management, University of Texas at Dallas
+**Workshop** Kale, A., Ricks, B., Gandhi, R., (2023) Building Interpretable and Explainable Methods to Identify Bridge Deterioration, Performance, and Maintenance, 19th Annual Big XII+ MIS Research Symposium | March 24-26, 2023 | Naveen Jindal School of Management, University of Texas at Dallas
 
 **Journal** Germonprez, M., Gandhi, R. A., & Link, G. (2021). The Routinization of Open Source Project Engagement: The Case of Open Source Risk Management Routines. Communications of the Association for Information Systems, 49, pp-pp. https://doi.org/10.17705/1CAIS.04938
 
