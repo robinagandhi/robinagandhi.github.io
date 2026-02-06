@@ -17,7 +17,7 @@ permalink: /pubs/
   <a class="jump-chip" href="#research-products">Research Products</a>
 </div>
 
-<div class="glass-panel section-panel">
+<div class="glass-panel section-panel" markdown="1">
 <h2 id="in-progress">In-Progress</h2>
 
 **Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Under review.
@@ -33,7 +33,7 @@ permalink: /pubs/
 **Conference** Kale, A., Ricks, B., Gandhi, R., A Framework for Interpretable and Explainable Machine Learning Models for Bridge Maintenance. Under preparation.
 </div>
 
-<div class="glass-panel section-panel">
+<div class="glass-panel section-panel" markdown="1">
 <h2 id="research-products">Research Products</h2>
 
 **Conference** Farjad, S.M., Patllola, S.R., Kassa, Y., Grispos, G., Gandhi. R. (2025) Secure Edge Computing Reference Architecture for Data-driven Structural Health Monitoring: Lessons Learned from Implementation and Benchmarking. In Proceedings of the 2025 ACM Southeast Conference (ACMSE 2025). Association for Computing Machinery, New York, NY, USA, 145–154. https://doi.org/10.1145/3696673.3723074

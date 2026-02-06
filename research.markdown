@@ -16,7 +16,7 @@ permalink: /research/
   <a class="jump-chip" href="#sponsored-projects">Sponsored Projects</a>
 </div>
 
-<div class="glass-panel section-panel">
+<div class="glass-panel section-panel" markdown="1">
 <h2 id="sponsored-projects">Sponsored Projects</h2>
 
 Gandhi, R. Khazanchi, D., Ricks, B. UNO Linzell, D., Sim, C. UNL 
