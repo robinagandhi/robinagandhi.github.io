@@ -27,9 +27,9 @@ permalink: /pubs/
 
 ## Research Products
 
-**Confereence** Farjad, S.M., Patllola, S.R., Kassa, Y., Grispos, G., Gandhi. R. (2025) Secure Edge Computing Reference Architecture for Data-driven Structural Health Monitoring: Lessons Learned from Implementation and Benchmarking. In Proceedings of the 2025 ACM Southeast Conference (ACMSE 2025). Association for Computing Machinery, New York, NY, USA, 145–154. https://doi.org/10.1145/3696673.3723074
+**Conference** Farjad, S.M., Patllola, S.R., Kassa, Y., Grispos, G., Gandhi. R. (2025) Secure Edge Computing Reference Architecture for Data-driven Structural Health Monitoring: Lessons Learned from Implementation and Benchmarking. In Proceedings of the 2025 ACM Southeast Conference (ACMSE 2025). Association for Computing Machinery, New York, NY, USA, 145–154. https://doi.org/10.1145/3696673.3723074
 
-**Confereence** Kassa, Y., Heller, W., Lacy, B., Ricks, B., Gandhi, R. (2024). Bridge Health-Informed Route Planning: Challenges and Promises. International Conference on Transportation and Development 2024 (pp. 104-116). American Society of Civil Engineers. https://doi.org/10.1061/9780784485514.010
+**Conference** Kassa, Y., Heller, W., Lacy, B., Ricks, B., Gandhi, R. (2024). Bridge Health-Informed Route Planning: Challenges and Promises. International Conference on Transportation and Development 2024 (pp. 104-116). American Society of Civil Engineers. https://doi.org/10.1061/9780784485514.010
 
 **Journal** Kale, A., Kassa, Y., Ricks, B., Gandhi, R. (2023). A Comparative Assessment of Bridge Deck Wearing Surfaces: Performance, Deterioration, and Maintenance. Applied Sciences, 13(19), 10883. https://doi.org/10.3390/app131910883
 

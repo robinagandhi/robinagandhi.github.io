@@ -17,7 +17,7 @@ Gandhi, R. Khazanchi, D., Ricks, B. UNO Linzell, D., Sim, C. UNL
 SMART Analytics for Critical Infrastructure inside a Resilient Data Fabric (SMART-RDF).
 $4M 
 01/01/2023 to 12/31/2024
-Sponsor: US Army Crops of Engineers, Engineering Research and Development Center.
+Sponsor: US Army Corps of Engineers, Engineering Research and Development Center.
 
 Hale, M.,	Gandhi, R. Development of a Robust, Nationally Accessible Cybersecurity Risk Management Curriculum for Technical and Managerial Cybersecurity Professionals   
 09/29/2021 - 09/28/2022  
@@ -28,7 +28,7 @@ Gandhi, Robin	Ricks, Brian, Khazanchi, Deepak
 Multilevel Analytics and Data Sharing for OPerations Planning (MADS-OPP).  
 $4.2M	  
 09/01/2021 to 12/31/2022  
-Sponsor: US Army Crops of Engineers, Engineering Research and Development Center. 
+Sponsor: US Army Corps of Engineers, Engineering Research and Development Center. 
 
 Hale, M., Gandhi, Robin., Babb, D., Dorn, B., 2021 GenCyber Student Program. 
 09/15/2021 - 12/31/2023  
@@ -125,4 +125,4 @@ Improving Software and Data Security in SCADA, OSD09-T003
 $100,000  
 05/01/2010 to 12/31/2010	  
 Sponsor: STTR grant between UNO and Technical Support, Inc.   
-Prime: The Department of Air Force, Air Force Research Labs at Wright-Patterson Airforce Base.  
+Prime: The Department of Air Force, Air Force Research Labs at Wright-Patterson Air Force Base.  
