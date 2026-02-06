@@ -14,7 +14,7 @@ layout: home
       <a class="glass-btn primary" href="{{ '/research/' | relative_url }}">Research</a>
       <a class="glass-btn" href="{{ '/pubs/' | relative_url }}">Publications</a>
       <a class="glass-btn" href="{{ '/teaching/' | relative_url }}">Teaching</a>
-      <a class="glass-btn" href="mailto:rgandhi@unomaha.edu">Contact</a>
+      <a class="glass-btn" href="https://www.linkedin.com/in/rgandhi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   </div>
 </div>
