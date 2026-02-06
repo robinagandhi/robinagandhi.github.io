@@ -5,21 +5,29 @@ permalink: /resources/
 ---
 
 <div class="quick-actions">
-  <a class="glass-btn primary" href="{{ '/' | relative_url }}">Home</a>
+  <a class="glass-btn" href="{{ '/' | relative_url }}">Home</a>
   <a class="glass-btn" href="{{ '/pubs/' | relative_url }}">Publications</a>
   <a class="glass-btn" href="{{ '/research/' | relative_url }}">Research</a>
   <a class="glass-btn" href="{{ '/teaching/' | relative_url }}">Teaching</a>
+  <a class="glass-btn primary" href="{{ '/resources/' | relative_url }}">Resources</a>
 </div>
 
+<div class="jump-menu glass-panel">
+  <a class="jump-chip" href="#security-blog">Security Blog</a>
+  <a class="jump-chip" href="#data-analysis">Data Analysis</a>
+  <a class="jump-chip" href="#phishing-demo">Phishing Demo</a>
+</div>
+
+<div class="glass-panel section-panel" markdown="1">
 # Resources
 
-## Security Blog
+## Security Blog {#security-blog}
 [Collection of Cybersecurity News for Class Discussion](https://docs.google.com/document/d/e/2PACX-1vTtWtVcSkk8pFTmaIgMp5hYhvgs47wYR1B2L82lj6DTq4XTEij9e1uatnu1o92QQi7ylFxau42-RBml/pub)
 
 ## NIST SP 800-160 Appendix J on Software Assurance  
 [Software Assurance Controls](http://csrc.nist.gov/publications/drafts/800-160/sp800_160_second-draft.pdf)  
 
-## R - Data Analysis  
+## R - Data Analysis {#data-analysis}  
 [NE Bridge Analysis](https://robinagandhi.github.io/r/NEBridges.html)  
 [Working with MongoDB](https://robinagandhi.github.io/r/mongoNBI.html)  
 [Credit Card Bin Analysis](https://robinagandhi.github.io/r/BinAnalysis.html)  
@@ -29,7 +37,7 @@ permalink: /resources/
 ## Semantic templates  
 [https://robinagandhi.github.io/st/](https://robinagandhi.github.io/st/)  
 
-## Phishing Demo 
+## Phishing Demo {#phishing-demo}
 [Phishing samples](https://robinagandhi.github.io/phishing-demo/phishing.html)  
 [Obfuscated source](https://robinagandhi.github.io/phishing-demo/obfuscated.html)  
 [Encoding](https://robinagandhi.github.io/phishing-demo/encoding.html)  
@@ -38,3 +46,4 @@ permalink: /resources/
 
 ## Software Assurance Pocket Guide (2011)  
 [Web Pocket Guide](https://robinagandhi.github.io/swapg/SwAPGWET/Home.html) 
+</div>
