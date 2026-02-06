@@ -5,13 +5,19 @@ permalink: /research/
 ---
 
 <div class="quick-actions">
-  <a class="glass-btn primary" href="{{ '/' | relative_url }}">Home</a>
+  <a class="glass-btn" href="{{ '/' | relative_url }}">Home</a>
   <a class="glass-btn" href="{{ '/pubs/' | relative_url }}">Publications</a>
   <a class="glass-btn" href="{{ '/teaching/' | relative_url }}">Teaching</a>
   <a class="glass-btn" href="{{ '/resources/' | relative_url }}">Resources</a>
+  <a class="glass-btn primary" href="{{ '/research/' | relative_url }}">Research</a>
 </div>
 
-## Sponsored Projects
+<div class="jump-menu glass-panel">
+  <a class="jump-chip" href="#sponsored-projects">Sponsored Projects</a>
+</div>
+
+<div class="glass-panel section-panel">
+<h2 id="sponsored-projects">Sponsored Projects</h2>
 
 Gandhi, R. Khazanchi, D., Ricks, B. UNO Linzell, D., Sim, C. UNL 
 SMART Analytics for Critical Infrastructure inside a Resilient Data Fabric (SMART-RDF).
@@ -126,3 +132,4 @@ $100,000
 05/01/2010 to 12/31/2010	  
 Sponsor: STTR grant between UNO and Technical Support, Inc.   
 Prime: The Department of Air Force, Air Force Research Labs at Wright-Patterson Air Force Base.  
+</div>

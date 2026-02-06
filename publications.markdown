@@ -5,13 +5,20 @@ permalink: /pubs/
 ---
 
 <div class="quick-actions">
-  <a class="glass-btn primary" href="{{ '/' | relative_url }}">Home</a>
+  <a class="glass-btn" href="{{ '/' | relative_url }}">Home</a>
   <a class="glass-btn" href="{{ '/research/' | relative_url }}">Research</a>
   <a class="glass-btn" href="{{ '/teaching/' | relative_url }}">Teaching</a>
   <a class="glass-btn" href="{{ '/resources/' | relative_url }}">Resources</a>
+  <a class="glass-btn primary" href="{{ '/pubs/' | relative_url }}">Publications</a>
 </div>
 
-## In-progress
+<div class="jump-menu glass-panel">
+  <a class="jump-chip" href="#in-progress">In-Progress</a>
+  <a class="jump-chip" href="#research-products">Research Products</a>
+</div>
+
+<div class="glass-panel section-panel">
+<h2 id="in-progress">In-Progress</h2>
 
 **Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Under review.
 
@@ -24,8 +31,10 @@ permalink: /pubs/
 **Journal** Kale, A., Kodali, A., Kassa, Y., Ricks, B., Gandhi, R., Integrating XAI methods with Formal Concept Analysis: A Case of Bridge Maintenance Strategies in Nebraska. Under preparation.
 
 **Conference** Kale, A., Ricks, B., Gandhi, R., A Framework for Interpretable and Explainable Machine Learning Models for Bridge Maintenance. Under preparation.
+</div>
 
-## Research Products
+<div class="glass-panel section-panel">
+<h2 id="research-products">Research Products</h2>
 
 **Conference** Farjad, S.M., Patllola, S.R., Kassa, Y., Grispos, G., Gandhi. R. (2025) Secure Edge Computing Reference Architecture for Data-driven Structural Health Monitoring: Lessons Learned from Implementation and Benchmarking. In Proceedings of the 2025 ACM Southeast Conference (ACMSE 2025). Association for Computing Machinery, New York, NY, USA, 145–154. https://doi.org/10.1145/3696673.3723074
 
@@ -172,3 +181,4 @@ permalink: /pubs/
 **Conference** Lee, S.W., Gandhi, R.A, Ahn, G., Yavagal, D. (2005) Active Automation of the DITSCAP, In Proceedings of the IEEE International Conference on Intelligence and Security Informatics (IEEE ISI-2005), Atlanta, Georgia, May 19-20, 2005, A Book Chapter in Lecture Notes in Computer Science, Volume 3495, pp. 479-485, Springer, URL: http://dx.doi.org/10.1007/11427995_46  
 
 **Conference** Tolone, W.J., Gandhi, R.A., Ahn, G. (2003) Locale-based access control: placing collaborative authorization decisions in context, In Proceedings of the IEEE International Conference on Systems, Man and Cybernetics, Vol. 5, pp. 4120- 4127, URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1245632&isnumber=27913
+</div>

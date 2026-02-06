@@ -64,6 +64,11 @@ body {
   transform: translateY(-1px);
 }
 
+.page-link.is-active {
+  background: rgba(30, 64, 175, 0.18);
+  font-weight: 700;
+}
+
 .page-content {
   padding-top: 2rem;
 }
@@ -110,6 +115,41 @@ body {
   flex-wrap: wrap;
   gap: 0.7rem;
   margin: 0.8rem 0 1.1rem;
+}
+
+.jump-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.2rem 0 1.2rem;
+  padding: 0.7rem 0.8rem;
+}
+
+.jump-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(29, 78, 216, 0.26);
+  color: var(--brand-700);
+  background: rgba(255, 255, 255, 0.72);
+  padding: 0.36rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.jump-chip:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.section-panel {
+  margin: 0.9rem 0 1.25rem;
+}
+
+.section-panel h2 {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
 }
 
 .glass-btn {

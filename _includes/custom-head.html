@@ -1,0 +1,17 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var currentPath = window.location.pathname.replace(/\/$/, '') || '/';
+    var links = document.querySelectorAll('.site-nav .page-link');
+
+    links.forEach(function (link) {
+      var href = link.getAttribute('href');
+      if (!href) {
+        return;
+      }
+      var linkPath = href.replace(/\/$/, '') || '/';
+      if (linkPath === currentPath) {
+        link.classList.add('is-active');
+      }
+    });
+  });
+</script>
