@@ -1,3 +1,16 @@
+---
+layout: page
+title: Resources
+permalink: /resources/
+---
+
+<div class="quick-actions">
+  <a class="glass-btn primary" href="{{ '/' | relative_url }}">Home</a>
+  <a class="glass-btn" href="{{ '/pubs/' | relative_url }}">Publications</a>
+  <a class="glass-btn" href="{{ '/research/' | relative_url }}">Research</a>
+  <a class="glass-btn" href="{{ '/teaching/' | relative_url }}">Teaching</a>
+</div>
+
 # Resources
 
 ## Security Blog
@@ -25,4 +38,3 @@
 
 ## Software Assurance Pocket Guide (2011)  
 [Web Pocket Guide](https://robinagandhi.github.io/swapg/SwAPGWET/Home.html) 
-

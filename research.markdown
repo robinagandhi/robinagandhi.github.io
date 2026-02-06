@@ -4,6 +4,13 @@ title: Research
 permalink: /research/
 ---
 
+<div class="quick-actions">
+  <a class="glass-btn primary" href="{{ '/' | relative_url }}">Home</a>
+  <a class="glass-btn" href="{{ '/pubs/' | relative_url }}">Publications</a>
+  <a class="glass-btn" href="{{ '/teaching/' | relative_url }}">Teaching</a>
+  <a class="glass-btn" href="{{ '/resources/' | relative_url }}">Resources</a>
+</div>
+
 ## Sponsored Projects
 
 Gandhi, R. Khazanchi, D., Ricks, B. UNO Linzell, D., Sim, C. UNL 

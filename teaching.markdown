@@ -4,6 +4,13 @@ title: Teaching
 permalink: /teaching/
 ---
 
+<div class="quick-actions">
+  <a class="glass-btn primary" href="{{ '/' | relative_url }}">Home</a>
+  <a class="glass-btn" href="{{ '/pubs/' | relative_url }}">Publications</a>
+  <a class="glass-btn" href="{{ '/research/' | relative_url }}">Research</a>
+  <a class="glass-btn" href="{{ '/resources/' | relative_url }}">Resources</a>
+</div>
+
 ## Graduate Classes
 
 ### CYBR 8420: Software Assurance

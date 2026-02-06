@@ -4,6 +4,13 @@ title: Pubs
 permalink: /pubs/
 ---
 
+<div class="quick-actions">
+  <a class="glass-btn primary" href="{{ '/' | relative_url }}">Home</a>
+  <a class="glass-btn" href="{{ '/research/' | relative_url }}">Research</a>
+  <a class="glass-btn" href="{{ '/teaching/' | relative_url }}">Teaching</a>
+  <a class="glass-btn" href="{{ '/resources/' | relative_url }}">Resources</a>
+</div>
+
 ## In-progress
 
 **Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Under review.

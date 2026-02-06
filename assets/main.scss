@@ -1,0 +1,213 @@
+---
+---
+@import "minima";
+
+:root {
+  --page-bg-a: #eff6ff;
+  --page-bg-b: #f8fafc;
+  --page-bg-c: #dbeafe;
+  --text-900: #0f172a;
+  --text-700: #334155;
+  --text-500: #64748b;
+  --glass-bg: rgba(255, 255, 255, 0.58);
+  --glass-bg-strong: rgba(255, 255, 255, 0.74);
+  --glass-border: rgba(148, 163, 184, 0.34);
+  --glass-shadow: 0 10px 30px rgba(15, 23, 42, 0.1);
+  --glass-shadow-hover: 0 16px 34px rgba(15, 23, 42, 0.16);
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --brand-600: #1d4ed8;
+  --brand-700: #1e40af;
+  --focus-ring: 0 0 0 3px rgba(59, 130, 246, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text-900);
+  font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 2% 8%, var(--page-bg-c) 0%, rgba(219, 234, 254, 0) 32%),
+    radial-gradient(circle at 98% 0%, #bfdbfe 0%, rgba(191, 219, 254, 0) 28%),
+    linear-gradient(160deg, var(--page-bg-b), var(--page-bg-a));
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border: 1px solid var(--glass-border);
+  border-top: 0;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  background: var(--glass-bg-strong);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: saturate(145%) blur(14px);
+  -webkit-backdrop-filter: saturate(145%) blur(14px);
+}
+
+.site-title,
+.page-link {
+  color: var(--text-900) !important;
+}
+
+.page-link {
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  transition: background-color 120ms ease, transform 120ms ease;
+}
+
+.page-link:hover {
+  background-color: rgba(30, 64, 175, 0.12);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.page-content {
+  padding-top: 2rem;
+}
+
+.page-content .wrapper {
+  max-width: 980px;
+}
+
+.post-header,
+.post-content > h2,
+.post-content > h3,
+.home h2,
+.home h3 {
+  color: var(--text-900);
+}
+
+.glass-panel {
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  background: var(--glass-bg);
+  box-shadow: var(--glass-shadow);
+  padding: 1.2rem;
+  backdrop-filter: saturate(150%) blur(10px);
+  -webkit-backdrop-filter: saturate(150%) blur(10px);
+}
+
+.hero-panel {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 1.2rem;
+  align-items: start;
+  margin-bottom: 1.25rem;
+}
+
+.hero-panel img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(148, 163, 184, 0.42);
+}
+
+.quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 0.8rem 0 1.1rem;
+}
+
+.glass-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  border: 1px solid rgba(29, 78, 216, 0.25);
+  border-radius: 999px;
+  padding: 0.52rem 0.95rem;
+  background: rgba(255, 255, 255, 0.64);
+  color: var(--text-900);
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(30, 64, 175, 0.09);
+  transition: transform 130ms ease, box-shadow 130ms ease, background-color 130ms ease;
+}
+
+.glass-btn:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: var(--glass-shadow-hover);
+  text-decoration: none;
+}
+
+.glass-btn:focus-visible,
+.page-link:focus-visible {
+  outline: 0;
+  box-shadow: var(--focus-ring);
+}
+
+.glass-btn.primary {
+  color: #ffffff;
+  background: linear-gradient(120deg, var(--brand-600), var(--brand-700));
+  border-color: rgba(30, 64, 175, 0.5);
+}
+
+.glass-btn.primary:hover {
+  background: linear-gradient(120deg, #1e40af, #1e3a8a);
+}
+
+.home .post-content > p,
+.post-content > p,
+.post-content > li,
+.post-content > ul,
+.post-content > ol {
+  color: var(--text-700);
+}
+
+.post-content ul li,
+.post-content ol li {
+  margin-bottom: 0.35rem;
+}
+
+.post-content a {
+  color: var(--brand-700);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.post-content a:hover {
+  color: var(--brand-600);
+}
+
+.post-content blockquote {
+  border-left: 3px solid rgba(29, 78, 216, 0.45);
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 0 10px 10px 0;
+  padding: 0.6rem 1rem;
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .site-header,
+  .glass-panel,
+  .glass-btn {
+    background: rgba(255, 255, 255, 0.94);
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-panel img {
+    max-width: 190px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
