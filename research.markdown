@@ -19,12 +19,11 @@ permalink: /research/
 <div class="glass-panel section-panel" markdown="1">
 <h2 id="sponsored-projects">Sponsored Projects</h2>
 
-Hoff, G. (PI), Gandhi, R. (Senior Personnel)
-
-11/01/2024 to 11/01/2026
-$170,630
-Sponsor: NE Dept of Veterans Affairs 
-Building a secure, scalable computing and data environment to modernize DPAA’s laboratory and analytical workflows in support of its mission to account for missing U.S. servicemembers.
+Hoff, G. (PI), Gandhi, R. (Senior Personnel)  
+11/01/2024 to 11/01/2026  
+$170,630  
+Sponsor: NE Dept of Veterans Affairs  
+Building a secure, scalable computing and data environment to modernize DPAA’s laboratory and analytical workflows in support of its mission to account for missing U.S. servicemembers.  
 
 Gandhi, R. (PI) Khazanchi, D., Ricks, B. UNO Linzell, D., Sim, C. UNL 
 SMART Analytics for Critical Infrastructure inside a Resilient Data Fabric (SMART-RDF).
