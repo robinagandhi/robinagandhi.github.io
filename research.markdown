@@ -25,11 +25,11 @@ $170,630
 Sponsor: NE Dept of Veterans Affairs  
 Building a secure, scalable computing and data environment to modernize DPAA’s laboratory and analytical workflows in support of its mission to account for missing U.S. servicemembers.  
 
-Gandhi, R. (PI) Khazanchi, D., Ricks, B. UNO Linzell, D., Sim, C. UNL 
-SMART Analytics for Critical Infrastructure inside a Resilient Data Fabric (SMART-RDF).
-$4M 
-01/01/2023 to 12/31/2024
-Sponsor: US Army Corps of Engineers, Engineering Research and Development Center.
+Gandhi, R. (PI) Khazanchi, D., Ricks, B. UNO Linzell, D., Sim, C. UNL   
+SMART Analytics for Critical Infrastructure inside a Resilient Data Fabric (SMART-RDF).  
+$4M   
+01/01/2023 to 12/31/2024  
+Sponsor: US Army Corps of Engineers, Engineering Research and Development Center.  
 
 Hale, M.,	Gandhi, R. (Co-PI) Development of a Robust, Nationally Accessible Cybersecurity Risk Management Curriculum for Technical and Managerial Cybersecurity Professionals   
 09/29/2021 - 09/28/2022  
