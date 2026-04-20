@@ -26,7 +26,6 @@ permalink: /pubs/
 
 **Journal** Kale, A., Kodali, A., Kassa, Y., Ricks, B., Gandhi, R., Integrating XAI methods with Formal Concept Analysis: A Case of Bridge Maintenance Strategies in Nebraska. Under preparation.
 
-**Conference** Kale, A., Ricks, B., Gandhi, R., A Framework for Interpretable and Explainable Machine Learning Models for Bridge Maintenance. Under preparation.
 </div>
 
 <div class="glass-panel section-panel" markdown="1">
