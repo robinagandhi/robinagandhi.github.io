@@ -22,19 +22,18 @@ permalink: /pubs/
 
 **Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Under review.
 
-**Workshop** Farjad, S.M., Gandhi, R., Practice-Informed Pedagogy for Linux Security: Perspectives on ML-driven Solutions for Daemon Security, Under review.
-
-**Conference** Farjad, S.M., Gandhi, R., Grispos, G., SoK: A Taxonomy of Adversarial Attacks on Data-Driven Structural Health Monitoring. Under review.
-
 **Journal** Kale, A., Ricks, B., Gandhi, R., Understanding Performance and Explanations of Machine Learning Models: Practical Applications to Bridge Maintenance. Under preparation.
 
 **Journal** Kale, A., Kodali, A., Kassa, Y., Ricks, B., Gandhi, R., Integrating XAI methods with Formal Concept Analysis: A Case of Bridge Maintenance Strategies in Nebraska. Under preparation.
 
-**Conference** Kale, A., Ricks, B., Gandhi, R., A Framework for Interpretable and Explainable Machine Learning Models for Bridge Maintenance. Under preparation.
 </div>
 
 <div class="glass-panel section-panel" markdown="1">
 <h2 id="research-products">Research Products</h2>
+
+**SSRN-Preprint** Farjad, S.M., Gandhi. R.A., Grispos, G., (2026) Structural Health Monitoring with Machine Learning: A Systematic Literature Review and Adversarial Attack Taxonomy (February 26, 2026). Available at SSRN: https://ssrn.com/abstract=6309060
+
+**Conference** Farjad, S.M., Gandhi. R.A. (2026) Practice-Informed Pedagogy for Linux Security: Perspectives on ML-Driven Solutions for Daemon Security. In 2026 ACM Southeast Conference (ACMSE 2026), April 23–25, 2026, Troy, AL, USA. ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/3746467.3801511
 
 **Conference** Farjad, S.M., Patllola, S.R., Kassa, Y., Grispos, G., Gandhi. R. (2025) Secure Edge Computing Reference Architecture for Data-driven Structural Health Monitoring: Lessons Learned from Implementation and Benchmarking. In Proceedings of the 2025 ACM Southeast Conference (ACMSE 2025). Association for Computing Machinery, New York, NY, USA, 145–154. https://doi.org/10.1145/3696673.3723074
 
