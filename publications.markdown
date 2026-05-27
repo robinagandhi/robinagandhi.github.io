@@ -35,6 +35,10 @@ permalink: /pubs/
 
 **Conference** Farjad, S.M., Gandhi. R.A. (2026) Practice-Informed Pedagogy for Linux Security: Perspectives on ML-Driven Solutions for Daemon Security. In 2026 ACM Southeast Conference (ACMSE 2026), April 23–25, 2026, Troy, AL, USA. ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/3746467.3801511
 
+**Book Chapter** Singh, V., Kassa, Y., Kale, A., Ricks, B., Gandhi, R. (2025). Model-Cart: A Machine Learning Meta-Framework with Explainability and Human-in-the-Loop. Advances in Intelligent Systems and Computing (pp. 316-326). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-89063-5_27
+
+**Conference** Farjad, S. M., Gandhi, R. (2025). Zeki: A Containerized Pipeline for Deep Learning Deployment for Edge-based Structural Health Monitoring. Proceedings of the 12th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (pp. 456-460). ACM. https://doi.org/10.1145/3736425.3772357
+
 **Conference** Farjad, S.M., Patllola, S.R., Kassa, Y., Grispos, G., Gandhi. R. (2025) Secure Edge Computing Reference Architecture for Data-driven Structural Health Monitoring: Lessons Learned from Implementation and Benchmarking. In Proceedings of the 2025 ACM Southeast Conference (ACMSE 2025). Association for Computing Machinery, New York, NY, USA, 145–154. https://doi.org/10.1145/3696673.3723074
 
 **Conference** Kassa, Y., Heller, W., Lacy, B., Ricks, B., Gandhi, R. (2024). Bridge Health-Informed Route Planning: Challenges and Promises. International Conference on Transportation and Development 2024 (pp. 104-116). American Society of Civil Engineers. https://doi.org/10.1061/9780784485514.010
