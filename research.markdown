@@ -16,7 +16,7 @@ permalink: /research/
   <a class="jump-chip" href="#sponsored-projects">Sponsored Projects</a>
 </div>
 
-<div class="glass-panel section-panel" markdown="1">
+<div class="glass-panel section-panel project-cards" markdown="1">
 <h2 id="sponsored-projects">Sponsored Projects</h2>
 
 Hoff, G. (PI), Gandhi, R. (Senior Personnel)  
