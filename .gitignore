@@ -102,3 +102,8 @@ ENV/
 
 # jekyll
 /_site
+
+# Jekyll local development
+vendor/bundle/
+vendor/cache/
+.bundle/

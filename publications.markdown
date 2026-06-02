@@ -17,7 +17,7 @@ permalink: /pubs/
   <a class="jump-chip" href="#research-products">Research Products</a>
 </div>
 
-<div class="glass-panel section-panel" markdown="1">
+<div class="glass-panel section-panel publications-section" markdown="1">
 <h2 id="in-progress">In-Progress</h2>
 
 **Journal** Tobey, D. H., Gandhi, R., Assessing secure coding proficiency: Designing a concept inventory. Under review.
@@ -28,7 +28,7 @@ permalink: /pubs/
 
 </div>
 
-<div class="glass-panel section-panel" markdown="1">
+<div class="glass-panel section-panel publications-section" markdown="1">
 <h2 id="research-products">Research Products</h2>
 
 **SSRN-Preprint** Farjad, S.M., Gandhi. R.A., Grispos, G., (2026) Structural Health Monitoring with Machine Learning: A Systematic Literature Review and Adversarial Attack Taxonomy (February 26, 2026). Available at SSRN: https://ssrn.com/abstract=6309060
