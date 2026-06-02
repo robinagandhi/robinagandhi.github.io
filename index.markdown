@@ -21,4 +21,5 @@ layout: home
 
 <div class="glass-panel">
   <p>Dr. Gandhi’s research interest includes software security engineering, requirements modeling and analysis, data preservation for scientific workflows, and system certification and accreditation. Viewing system security as fundamentally a design problem, his work develops models that strengthen analytical thinking in security engineering practice. His contributions have helped bring software security engineering into the forefront of U.S. federal assessment and authorization processes for IT systems. He also serves on the Common Weakness Enumeration board and as Associate Editor of the Cybersecurity Skills Journal. </p>
+  <p> **Why I do what I do?** I am excited to work each and every day to inspire people to collaborate and bring their ideas to life so that they grow into discoveries that serve the public good. My CliftonStrengths in ideation, learning, strategy, belief, and connectedness help me do this by seeing new possibilities, staying curious, connecting people and ideas, and keeping research anchored in values that matter. </p>
 </div>
